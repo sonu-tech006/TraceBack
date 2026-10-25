@@ -1,0 +1,6 @@
+{
+  "name": "TraceBack — AI-Powered Lost & Found Network",
+  "description": "Production-grade community lost and found platform featuring AI descriptive matching, secure ownership verification, and safe item returns.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

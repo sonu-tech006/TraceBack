@@ -1,0 +1,4983 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-1",
+      "name": "Marcus Vance",
+      "email": "marcus.admin@traceback.org",
+      "passwordHash": "712f60c46fee64dcea606d2b1681498cdc07fc02a7d22f94eddae02031f72a6e",
+      "role": "admin",
+      "avatar": "/src/assets/images/avatar_marcus_admin_1792785746915.jpg",
+      "phone": "+1 (555) 019-4820",
+      "organization": "Campus Safety & Facility Operations",
+      "bio": "Lead administrator for university lost and found management and verified returns.",
+      "createdAt": "2026-07-25T20:07:36.137Z"
+    },
+    {
+      "id": "usr-mod-1",
+      "name": "Sarah Chen",
+      "email": "sarah.chen@traceback.org",
+      "passwordHash": "78d1e573c45048ea78d576cf0e860ceb6a043d19c8169af85f9ba0aa202cb3da",
+      "role": "moderator",
+      "avatar": "/src/assets/images/avatar_sarah_chen_1792785746764.jpg",
+      "phone": "+1 (555) 012-7893",
+      "organization": "Student Union Guild",
+      "bio": "Senior student coordinator and trusted verification reviewer.",
+      "createdAt": "2026-08-24T20:07:36.137Z"
+    },
+    {
+      "id": "usr-demo-student",
+      "name": "David Miller",
+      "email": "david.miller@campus.edu",
+      "passwordHash": "522c3a1018c06a5090c508bcd411fd1c38accab856314da61df2518eaaadf5ff",
+      "role": "user",
+      "avatar": "",
+      "phone": "+1 (555) 014-9921",
+      "organization": "Faculty of Engineering",
+      "bio": "Electrical Engineering student.",
+      "createdAt": "2026-09-23T20:07:36.137Z"
+    },
+    {
+      "id": "usr-demo-emily",
+      "name": "Emily Watson",
+      "email": "emily.watson@campus.edu",
+      "passwordHash": "522c3a1018c06a5090c508bcd411fd1c38accab856314da61df2518eaaadf5ff",
+      "role": "user",
+      "avatar": "",
+      "phone": "+1 (555) 018-3412",
+      "organization": "College of Arts & Sciences",
+      "bio": "Design graduate student.",
+      "createdAt": "2026-09-28T20:07:36.137Z"
+    },
+    {
+      "id": "usr-test-1792786633549",
+      "name": "Test Student",
+      "email": "tester-1792786633548@campus.edu",
+      "passwordHash": "a80d5ef1ae5c4397d4ebbcf70e429eab2fd4701185c51c2be65fdd02743170ef",
+      "role": "user",
+      "organization": "Computer Science Dept",
+      "createdAt": "2026-10-23T20:17:13.549Z"
+    },
+    {
+      "id": "usr-test-1792808483703",
+      "name": "Test Student",
+      "email": "tester-1792808483703@campus.edu",
+      "passwordHash": "a80d5ef1ae5c4397d4ebbcf70e429eab2fd4701185c51c2be65fdd02743170ef",
+      "role": "user",
+      "organization": "Computer Science Dept",
+      "createdAt": "2026-10-24T02:21:23.703Z"
+    },
+    {
+      "id": "usr-1792808926809-uchz",
+      "name": "sonu",
+      "email": "sonukr7435@gmail.com",
+      "passwordHash": "22e9a160e26c4bf8ca6d7065b2bf9b5d98a9350445b0300a6f5559db71228d42",
+      "role": "user",
+      "organization": "psit",
+      "phone": "",
+      "avatar": "",
+      "createdAt": "2026-10-24T02:28:46.809Z"
+    },
+    {
+      "id": "usr-test-1792808952139",
+      "name": "Test Student",
+      "email": "tester-1792808952138@campus.edu",
+      "passwordHash": "a80d5ef1ae5c4397d4ebbcf70e429eab2fd4701185c51c2be65fdd02743170ef",
+      "role": "user",
+      "organization": "Computer Science Dept",
+      "createdAt": "2026-10-24T02:29:12.139Z"
+    },
+    {
+      "id": "usr-test-1792809081810",
+      "name": "Test Student",
+      "email": "tester-1792809081810@campus.edu",
+      "passwordHash": "a80d5ef1ae5c4397d4ebbcf70e429eab2fd4701185c51c2be65fdd02743170ef",
+      "role": "user",
+      "organization": "Computer Science Dept",
+      "createdAt": "2026-10-24T02:31:21.810Z"
+    }
+  ],
+  "items": [
+    {
+      "id": "found-e2e-1792809081813",
+      "type": "found",
+      "title": "Found Navy Blue Herschel Rucksack",
+      "category": "Bags & Luggage",
+      "subcategory": "Backpacks",
+      "description": "Found unattended in Union lounge area.",
+      "date": "2026-10-24",
+      "location": "Student Union Lounge",
+      "city": "Cambridge",
+      "color": "Navy Blue",
+      "brand": "Herschel Supply Co.",
+      "distinguishingFeatures": [
+        "Bronze zipper pin"
+      ],
+      "contactMethod": "Custody Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "returned",
+      "userId": "usr-admin-1",
+      "userName": "Marcus Vance",
+      "userEmail": "marcus.admin@traceback.org",
+      "isDemo": false,
+      "privateClues": {
+        "secretMarks": "Initials T.S. stamped inside tag",
+        "exactStorageLocation": "Union Information Desk Locker 12",
+        "verificationQuestion": "What initials are written on the inside seam?"
+      },
+      "createdAt": "2026-10-24T02:31:21.813Z",
+      "updatedAt": "2026-10-24T02:31:21.814Z"
+    },
+    {
+      "id": "lost-e2e-1792809081813",
+      "type": "lost",
+      "title": "Navy Herschel Laptop Backpack",
+      "category": "Bags & Luggage",
+      "subcategory": "Backpacks",
+      "description": "Left in Student Union lounge near fireplace.",
+      "date": "2026-10-24",
+      "location": "Student Union Lounge",
+      "city": "Cambridge",
+      "color": "Navy Blue",
+      "brand": "Herschel Supply Co.",
+      "distinguishingFeatures": [
+        "Small bronze zipper pin",
+        "Initials T.S. inside tag"
+      ],
+      "contactMethod": "In-app claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "recovered",
+      "userId": "usr-test-1792809081810",
+      "userName": "Test Student",
+      "userEmail": "tester-1792809081810@campus.edu",
+      "isDemo": false,
+      "privateClues": {
+        "secretMarks": "Initials T.S. stamped inside tag",
+        "verificationQuestion": "What initials are written on the inside seam?"
+      },
+      "createdAt": "2026-10-24T02:31:21.813Z",
+      "updatedAt": "2026-10-24T02:31:21.814Z"
+    },
+    {
+      "id": "found-e2e-1792808952142",
+      "type": "found",
+      "title": "Found Navy Blue Herschel Rucksack",
+      "category": "Bags & Luggage",
+      "subcategory": "Backpacks",
+      "description": "Found unattended in Union lounge area.",
+      "date": "2026-10-24",
+      "location": "Student Union Lounge",
+      "city": "Cambridge",
+      "color": "Navy Blue",
+      "brand": "Herschel Supply Co.",
+      "distinguishingFeatures": [
+        "Bronze zipper pin"
+      ],
+      "contactMethod": "Custody Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "returned",
+      "userId": "usr-admin-1",
+      "userName": "Marcus Vance",
+      "userEmail": "marcus.admin@traceback.org",
+      "isDemo": false,
+      "privateClues": {
+        "secretMarks": "Initials T.S. stamped inside tag",
+        "exactStorageLocation": "Union Information Desk Locker 12",
+        "verificationQuestion": "What initials are written on the inside seam?"
+      },
+      "createdAt": "2026-10-24T02:29:12.141Z",
+      "updatedAt": "2026-10-24T02:29:12.142Z"
+    },
+    {
+      "id": "lost-e2e-1792808952141",
+      "type": "lost",
+      "title": "Navy Herschel Laptop Backpack",
+      "category": "Bags & Luggage",
+      "subcategory": "Backpacks",
+      "description": "Left in Student Union lounge near fireplace.",
+      "date": "2026-10-24",
+      "location": "Student Union Lounge",
+      "city": "Cambridge",
+      "color": "Navy Blue",
+      "brand": "Herschel Supply Co.",
+      "distinguishingFeatures": [
+        "Small bronze zipper pin",
+        "Initials T.S. inside tag"
+      ],
+      "contactMethod": "In-app claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "recovered",
+      "userId": "usr-test-1792808952139",
+      "userName": "Test Student",
+      "userEmail": "tester-1792808952138@campus.edu",
+      "isDemo": false,
+      "privateClues": {
+        "secretMarks": "Initials T.S. stamped inside tag",
+        "verificationQuestion": "What initials are written on the inside seam?"
+      },
+      "createdAt": "2026-10-24T02:29:12.141Z",
+      "updatedAt": "2026-10-24T02:29:12.142Z"
+    },
+    {
+      "id": "found-e2e-1792808483705",
+      "type": "found",
+      "title": "Found Navy Blue Herschel Rucksack",
+      "category": "Bags & Luggage",
+      "subcategory": "Backpacks",
+      "description": "Found unattended in Union lounge area.",
+      "date": "2026-10-24",
+      "location": "Student Union Lounge",
+      "city": "Cambridge",
+      "color": "Navy Blue",
+      "brand": "Herschel Supply Co.",
+      "distinguishingFeatures": [
+        "Bronze zipper pin"
+      ],
+      "contactMethod": "Custody Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "returned",
+      "userId": "usr-admin-1",
+      "userName": "Marcus Vance",
+      "userEmail": "marcus.admin@traceback.org",
+      "isDemo": false,
+      "privateClues": {
+        "secretMarks": "Initials T.S. stamped inside tag",
+        "exactStorageLocation": "Union Information Desk Locker 12",
+        "verificationQuestion": "What initials are written on the inside seam?"
+      },
+      "createdAt": "2026-10-24T02:21:23.705Z",
+      "updatedAt": "2026-10-24T02:21:23.706Z"
+    },
+    {
+      "id": "lost-e2e-1792808483705",
+      "type": "lost",
+      "title": "Navy Herschel Laptop Backpack",
+      "category": "Bags & Luggage",
+      "subcategory": "Backpacks",
+      "description": "Left in Student Union lounge near fireplace.",
+      "date": "2026-10-24",
+      "location": "Student Union Lounge",
+      "city": "Cambridge",
+      "color": "Navy Blue",
+      "brand": "Herschel Supply Co.",
+      "distinguishingFeatures": [
+        "Small bronze zipper pin",
+        "Initials T.S. inside tag"
+      ],
+      "contactMethod": "In-app claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "recovered",
+      "userId": "usr-test-1792808483703",
+      "userName": "Test Student",
+      "userEmail": "tester-1792808483703@campus.edu",
+      "isDemo": false,
+      "privateClues": {
+        "secretMarks": "Initials T.S. stamped inside tag",
+        "verificationQuestion": "What initials are written on the inside seam?"
+      },
+      "createdAt": "2026-10-24T02:21:23.705Z",
+      "updatedAt": "2026-10-24T02:21:23.706Z"
+    },
+    {
+      "id": "found-e2e-1792786633551",
+      "type": "found",
+      "title": "Found Navy Blue Herschel Rucksack",
+      "category": "Bags & Luggage",
+      "subcategory": "Backpacks",
+      "description": "Found unattended in Union lounge area.",
+      "date": "2026-10-23",
+      "location": "Student Union Lounge",
+      "city": "Cambridge",
+      "color": "Navy Blue",
+      "brand": "Herschel Supply Co.",
+      "distinguishingFeatures": [
+        "Bronze zipper pin"
+      ],
+      "contactMethod": "Custody Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "status": "returned",
+      "userId": "usr-admin-1",
+      "userName": "Marcus Vance",
+      "userEmail": "marcus.admin@traceback.org",
+      "isDemo": false,
+      "privateClues": {
+        "secretMarks": "Initials T.S. stamped inside tag",
+        "exactStorageLocation": "Union Information Desk Locker 12",
+        "verificationQuestion": "What initials are written on the inside seam?"
+      },
+      "createdAt": "2026-10-23T20:17:13.550Z",
+      "updatedAt": "2026-10-23T20:17:13.551Z"
+    },
+    {
+      "id": "lost-e2e-1792786633550",
+      "type": "lost",
+      "title": "Navy Herschel Laptop Backpack",
+      "category": "Bags & Luggage",
+      "subcategory": "Backpacks",
+      "description": "Left in Student Union lounge near fireplace.",
+      "date": "2026-10-23",
+      "location": "Student Union Lounge",
+      "city": "Cambridge",
+      "color": "Navy Blue",
+      "brand": "Herschel Supply Co.",
+      "distinguishingFeatures": [
+        "Small bronze zipper pin",
+        "Initials T.S. inside tag"
+      ],
+      "contactMethod": "In-app claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "status": "recovered",
+      "userId": "usr-test-1792786633549",
+      "userName": "Test Student",
+      "userEmail": "tester-1792786633548@campus.edu",
+      "isDemo": false,
+      "privateClues": {
+        "secretMarks": "Initials T.S. stamped inside tag",
+        "verificationQuestion": "What initials are written on the inside seam?"
+      },
+      "createdAt": "2026-10-23T20:17:13.550Z",
+      "updatedAt": "2026-10-23T20:17:13.551Z"
+    },
+    {
+      "id": "lost-demo-01",
+      "type": "lost",
+      "title": "Space Gray MacBook Pro 14\" M3",
+      "category": "Electronics",
+      "subcategory": "Laptops",
+      "description": "Left on a corner study desk on the 3rd floor quiet zone. Encased in a dark navy Tomtoc sleeve.",
+      "date": "2026-10-22",
+      "time": "14:30",
+      "location": "Main Library 3rd Floor Quiet Study",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.3736,
+        "lng": -71.1097
+      },
+      "color": "Space Gray",
+      "brand": "Apple",
+      "distinguishingFeatures": [
+        "Rust crab sticker on lid",
+        "Slight nick near charging port"
+      ],
+      "contactMethod": "In-app secure claim",
+      "images": [
+        {
+          "url": "/src/assets/images/item_sample_laptop_1792785746551.jpg",
+          "isIllustrative": true,
+          "label": "Illustrative reference"
+        }
+      ],
+      "estimatedValue": "$50 - $1,500",
+      "reward": "$50 Reward for return",
+      "sensitiveData": true,
+      "status": "matched",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Serial ends in 9J2M; wallpaper is Carina nebula",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Apple Laptops"
+      },
+      "createdAt": "2026-10-22T20:07:36.138Z",
+      "updatedAt": "2026-10-22T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-01",
+      "type": "found",
+      "title": "Space Gray MacBook Pro 14-inch found on table",
+      "category": "Electronics",
+      "subcategory": "Laptops",
+      "description": "Found unattended laptop on table near 3rd floor west windows with a padded sleeve.",
+      "date": "2026-10-22",
+      "time": "16:45",
+      "location": "Main Library 3rd Floor Quiet Study",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.3736,
+        "lng": -71.1097
+      },
+      "color": "Space Gray",
+      "brand": "Apple",
+      "distinguishingFeatures": [
+        "Rust crab sticker on lid",
+        "Slight nick near charging port"
+      ],
+      "contactMethod": "Campus Security Desk / TraceBack Claim",
+      "images": [
+        {
+          "url": "/src/assets/images/item_sample_laptop_1792785746551.jpg",
+          "isIllustrative": true,
+          "label": "Illustrative reference"
+        }
+      ],
+      "sensitiveData": true,
+      "status": "claimed",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Security Facility Lockbox Cabinet B-04",
+        "handoverAvailability": "Monday - Friday, 9:00 AM - 5:00 PM with student ID verification",
+        "secretMarks": "Serial ends in 9J2M; wallpaper is Carina nebula",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Apple Laptops"
+      },
+      "createdAt": "2026-10-22T20:07:36.138Z",
+      "updatedAt": "2026-10-22T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-02",
+      "type": "lost",
+      "title": "Charcoal Waxed Canvas Commuter Backpack",
+      "category": "Bags & Luggage",
+      "subcategory": "Backpacks",
+      "description": "Forgot under the high-top table at the Union cafe while studying for midterms. Contains notebooks and chargers.",
+      "date": "2026-10-21",
+      "time": "14:30",
+      "location": "Student Union Dining Hall",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.375600000000006,
+        "lng": -71.10770000000001
+      },
+      "color": "Charcoal Gray",
+      "brand": "Bellroy",
+      "distinguishingFeatures": [
+        "Brass zipper pulls",
+        "Orange interior lining",
+        "Small carabiner on strap"
+      ],
+      "contactMethod": "In-app secure claim",
+      "images": [
+        {
+          "url": "/src/assets/images/item_sample_backpack_1792785746923.jpg",
+          "isIllustrative": true,
+          "label": "Illustrative reference"
+        }
+      ],
+      "estimatedValue": "$50 - $1,500",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Contains blue spiral notebook with Calculus III notes",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Bellroy Backpacks"
+      },
+      "createdAt": "2026-10-21T20:07:36.138Z",
+      "updatedAt": "2026-10-21T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-02",
+      "type": "found",
+      "title": "Found Charcoal Canvas Backpack near cafe tables",
+      "category": "Bags & Luggage",
+      "subcategory": "Backpacks",
+      "description": "Dark gray waxed canvas rucksack discovered by custodial staff near dining hall exit.",
+      "date": "2026-10-22",
+      "time": "16:45",
+      "location": "Student Union Dining Hall",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.375600000000006,
+        "lng": -71.10770000000001
+      },
+      "color": "Charcoal Gray",
+      "brand": "Bellroy",
+      "distinguishingFeatures": [
+        "Brass zipper pulls",
+        "Orange interior lining",
+        "Small carabiner on strap"
+      ],
+      "contactMethod": "Campus Security Desk / TraceBack Claim",
+      "images": [
+        {
+          "url": "/src/assets/images/item_sample_backpack_1792785746923.jpg",
+          "isIllustrative": true,
+          "label": "Illustrative reference"
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Security Facility Lockbox Cabinet B-04",
+        "handoverAvailability": "Monday - Friday, 9:00 AM - 5:00 PM with student ID verification",
+        "secretMarks": "Contains blue spiral notebook with Calculus III notes",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Bellroy Backpacks"
+      },
+      "createdAt": "2026-10-22T20:07:36.138Z",
+      "updatedAt": "2026-10-22T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-03",
+      "type": "lost",
+      "title": "Sony WH-1000XM5 Wireless Headphones in Case",
+      "category": "Electronics",
+      "subcategory": "Headphones",
+      "description": "Black Sony headphones inside original gray fabric zip case. Left on bench outside physics lecture.",
+      "date": "2026-10-20",
+      "time": "14:30",
+      "location": "Science Center Atrium",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.3776,
+        "lng": -71.1057
+      },
+      "color": "Black",
+      "brand": "Sony",
+      "distinguishingFeatures": [
+        "Custom braided auxiliary audio cable inside mesh pocket"
+      ],
+      "contactMethod": "In-app secure claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$50 - $1,500",
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Registered Bluetooth name: \"Emily's QuietXM5\"",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Sony Headphones"
+      },
+      "createdAt": "2026-10-20T20:07:36.138Z",
+      "updatedAt": "2026-10-20T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-03",
+      "type": "found",
+      "title": "Sony Over-Ear Noise Cancelling Headphones in zippered case",
+      "category": "Electronics",
+      "subcategory": "Headphones",
+      "description": "Black high-end wireless headphones in carrying case handed into lost desk.",
+      "date": "2026-10-21",
+      "time": "16:45",
+      "location": "Science Center Atrium",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.3776,
+        "lng": -71.1057
+      },
+      "color": "Black",
+      "brand": "Sony",
+      "distinguishingFeatures": [
+        "Custom braided auxiliary audio cable inside mesh pocket"
+      ],
+      "contactMethod": "Campus Security Desk / TraceBack Claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": true,
+      "status": "returned",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Security Facility Lockbox Cabinet B-04",
+        "handoverAvailability": "Monday - Friday, 9:00 AM - 5:00 PM with student ID verification",
+        "secretMarks": "Registered Bluetooth name: \"Emily's QuietXM5\"",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Sony Headphones"
+      },
+      "createdAt": "2026-10-21T20:07:36.138Z",
+      "updatedAt": "2026-10-21T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-04",
+      "type": "lost",
+      "title": "Apple Watch Series 9 45mm with Sport Loop",
+      "category": "Personal Accessories",
+      "subcategory": "Watches",
+      "description": "Slipped off during basketball training in gym court 2. Midnight aluminum casing.",
+      "date": "2026-10-19",
+      "time": "14:30",
+      "location": "Athletics Gym Locker Area",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.3796,
+        "lng": -71.1037
+      },
+      "color": "Midnight Black",
+      "brand": "Apple",
+      "distinguishingFeatures": [
+        "Scratched top right glass edge",
+        "Starlight reflective loop"
+      ],
+      "contactMethod": "In-app secure claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$50 - $1,500",
+      "reward": "$50 Reward for return",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Monogrammed initial \"D\" visible in health app profile",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Apple Watches"
+      },
+      "createdAt": "2026-10-19T20:07:36.138Z",
+      "updatedAt": "2026-10-19T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-04",
+      "type": "found",
+      "title": "Smartwatch with Starlight Fabric Loop band",
+      "category": "Personal Accessories",
+      "subcategory": "Watches",
+      "description": "Dark smartwatch found resting on gym bleachers after evening intramural game.",
+      "date": "2026-10-20",
+      "time": "16:45",
+      "location": "Athletics Gym Locker Area",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.3796,
+        "lng": -71.1037
+      },
+      "color": "Midnight Black",
+      "brand": "Apple",
+      "distinguishingFeatures": [
+        "Scratched top right glass edge",
+        "Starlight reflective loop"
+      ],
+      "contactMethod": "Campus Security Desk / TraceBack Claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Security Facility Lockbox Cabinet B-04",
+        "handoverAvailability": "Monday - Friday, 9:00 AM - 5:00 PM with student ID verification",
+        "secretMarks": "Monogrammed initial \"D\" visible in health app profile",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Apple Watches"
+      },
+      "createdAt": "2026-10-20T20:07:36.138Z",
+      "updatedAt": "2026-10-20T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-05",
+      "type": "lost",
+      "title": "Subaru Key Fob with University Lanyard",
+      "category": "Keys & Badges",
+      "subcategory": "Car Keys",
+      "description": "Key ring with 2022 Subaru key fob and 3 brass house keys on a navy alumni lanyard.",
+      "date": "2026-10-18",
+      "time": "14:30",
+      "location": "Campus Coffee Commons",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.381600000000006,
+        "lng": -71.10170000000001
+      },
+      "color": "Black / Silver",
+      "brand": "Subaru",
+      "distinguishingFeatures": [
+        "Red silicone bumper on fob",
+        "Small brass bottle opener"
+      ],
+      "contactMethod": "In-app secure claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$50 - $1,500",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Brass key has engraved letter \"H\" and number 402",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Subaru Car Keys"
+      },
+      "createdAt": "2026-10-18T20:07:36.138Z",
+      "updatedAt": "2026-10-18T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-05",
+      "type": "found",
+      "title": "Subaru Smart Car Key on Blue Lanyard",
+      "category": "Keys & Badges",
+      "subcategory": "Car Keys",
+      "description": "Set of vehicle keys on a blue fabric neck lanyard found near campus bike racks.",
+      "date": "2026-10-19",
+      "time": "16:45",
+      "location": "Campus Coffee Commons",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.381600000000006,
+        "lng": -71.10170000000001
+      },
+      "color": "Black / Silver",
+      "brand": "Subaru",
+      "distinguishingFeatures": [
+        "Red silicone bumper on fob",
+        "Small brass bottle opener"
+      ],
+      "contactMethod": "Campus Security Desk / TraceBack Claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Security Facility Lockbox Cabinet B-04",
+        "handoverAvailability": "Monday - Friday, 9:00 AM - 5:00 PM with student ID verification",
+        "secretMarks": "Brass key has engraved letter \"H\" and number 402",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Subaru Car Keys"
+      },
+      "createdAt": "2026-10-19T20:07:36.138Z",
+      "updatedAt": "2026-10-19T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-06",
+      "type": "lost",
+      "title": "Student Campus ID and Transit Pass Cardholder",
+      "category": "Documents & IDs",
+      "subcategory": "Student ID Cards",
+      "description": "Brown leather cardholder containing Harvard ID card and CharlieCard transit pass.",
+      "date": "2026-10-17",
+      "time": "14:30",
+      "location": "Arts Pavillion Lecture Hall B",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.3836,
+        "lng": -71.0997
+      },
+      "color": "Brown",
+      "brand": "Bellroy",
+      "distinguishingFeatures": [
+        "Embossed initials J.K.",
+        "Contains transit pass"
+      ],
+      "contactMethod": "In-app secure claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$50 - $1,500",
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Student ID number ends with 4981",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Bellroy Student ID Cards"
+      },
+      "createdAt": "2026-10-17T20:07:36.138Z",
+      "updatedAt": "2026-10-17T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-06",
+      "type": "found",
+      "title": "Leather card sleeve with Student ID and MetroCard",
+      "category": "Documents & IDs",
+      "subcategory": "Student ID Cards",
+      "description": "Leather minimalist wallet card sleeve found on seat in Lecture Hall B.",
+      "date": "2026-10-18",
+      "time": "16:45",
+      "location": "Arts Pavillion Lecture Hall B",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.3836,
+        "lng": -71.0997
+      },
+      "color": "Brown",
+      "brand": "Bellroy",
+      "distinguishingFeatures": [
+        "Embossed initials J.K.",
+        "Contains transit pass"
+      ],
+      "contactMethod": "Campus Security Desk / TraceBack Claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Security Facility Lockbox Cabinet B-04",
+        "handoverAvailability": "Monday - Friday, 9:00 AM - 5:00 PM with student ID verification",
+        "secretMarks": "Student ID number ends with 4981",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Bellroy Student ID Cards"
+      },
+      "createdAt": "2026-10-18T20:07:36.138Z",
+      "updatedAt": "2026-10-18T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-07",
+      "type": "lost",
+      "title": "AirPods Pro 2nd Gen in Sage Green Silicone Case",
+      "category": "Electronics",
+      "subcategory": "Earbuds",
+      "description": "Lost my AirPods Pro charging case in the Law reading room. White pods inside green case.",
+      "date": "2026-10-16",
+      "time": "14:30",
+      "location": "Law School Reading Room",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.385600000000004,
+        "lng": -71.0977
+      },
+      "color": "White / Sage Green",
+      "brand": "Apple",
+      "distinguishingFeatures": [
+        "Tiny dinosaur charm on lanyard loop",
+        "Small dent on back lid"
+      ],
+      "contactMethod": "In-app secure claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$50 - $1,500",
+      "reward": "$50 Reward for return",
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Engraved with initials \"S.C.\" on the white inner plastic",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Apple Earbuds"
+      },
+      "createdAt": "2026-10-16T20:07:36.138Z",
+      "updatedAt": "2026-10-16T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-07",
+      "type": "found",
+      "title": "AirPods Pro Case with light green protective cover",
+      "category": "Electronics",
+      "subcategory": "Earbuds",
+      "description": "Apple wireless earbud case with green silicone jacket found on reading desk.",
+      "date": "2026-10-17",
+      "time": "16:45",
+      "location": "Law School Reading Room",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.385600000000004,
+        "lng": -71.0977
+      },
+      "color": "White / Sage Green",
+      "brand": "Apple",
+      "distinguishingFeatures": [
+        "Tiny dinosaur charm on lanyard loop",
+        "Small dent on back lid"
+      ],
+      "contactMethod": "Campus Security Desk / TraceBack Claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Security Facility Lockbox Cabinet B-04",
+        "handoverAvailability": "Monday - Friday, 9:00 AM - 5:00 PM with student ID verification",
+        "secretMarks": "Engraved with initials \"S.C.\" on the white inner plastic",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Apple Earbuds"
+      },
+      "createdAt": "2026-10-17T20:07:36.138Z",
+      "updatedAt": "2026-10-17T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-08",
+      "type": "lost",
+      "title": "Tortoiseshell Ray-Ban Prescription Glasses",
+      "category": "Personal Accessories",
+      "subcategory": "Eyewear",
+      "description": "Wayfarer style optical glasses in a brown leather Ray-Ban case left on computer desk.",
+      "date": "2026-10-15",
+      "time": "14:30",
+      "location": "North Quad Engineering Lab 204",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.387600000000006,
+        "lng": -71.09570000000001
+      },
+      "color": "Tortoiseshell Brown",
+      "brand": "Ray-Ban",
+      "distinguishingFeatures": [
+        "RB 5154 model code on inner temple",
+        "Green microfiber cloth"
+      ],
+      "contactMethod": "In-app secure claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$50 - $1,500",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Left lens has -2.75 prescription stamp on paper slip inside case",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Ray-Ban Eyewear"
+      },
+      "createdAt": "2026-10-15T20:07:36.138Z",
+      "updatedAt": "2026-10-15T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-08",
+      "type": "found",
+      "title": "Ray-Ban Eyeglasses with Tortoiseshell Frame",
+      "category": "Personal Accessories",
+      "subcategory": "Eyewear",
+      "description": "Found designer optical glasses in hard snap case near printer station.",
+      "date": "2026-10-16",
+      "time": "16:45",
+      "location": "North Quad Engineering Lab 204",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.387600000000006,
+        "lng": -71.09570000000001
+      },
+      "color": "Tortoiseshell Brown",
+      "brand": "Ray-Ban",
+      "distinguishingFeatures": [
+        "RB 5154 model code on inner temple",
+        "Green microfiber cloth"
+      ],
+      "contactMethod": "Campus Security Desk / TraceBack Claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Security Facility Lockbox Cabinet B-04",
+        "handoverAvailability": "Monday - Friday, 9:00 AM - 5:00 PM with student ID verification",
+        "secretMarks": "Left lens has -2.75 prescription stamp on paper slip inside case",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Ray-Ban Eyewear"
+      },
+      "createdAt": "2026-10-16T20:07:36.138Z",
+      "updatedAt": "2026-10-16T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-09",
+      "type": "lost",
+      "title": "Hydro Flask 32oz Wide Mouth in Pacific Blue",
+      "category": "Personal Accessories",
+      "subcategory": "Water Bottles",
+      "description": "Pacific blue vacuum insulated water bottle with boot guard and national park stickers.",
+      "date": "2026-10-14",
+      "time": "14:30",
+      "location": "Athletics Gym Locker Area",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.3896,
+        "lng": -71.0937
+      },
+      "color": "Pacific Blue",
+      "brand": "Hydro Flask",
+      "distinguishingFeatures": [
+        "Yosemite Half Dome sticker",
+        "Yellow silicone flex boot"
+      ],
+      "contactMethod": "In-app secure claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$50 - $1,500",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner phone number written in faint silver marker under rubber boot",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Hydro Flask Water Bottles"
+      },
+      "createdAt": "2026-10-14T20:07:36.138Z",
+      "updatedAt": "2026-10-14T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-09",
+      "type": "found",
+      "title": "Blue Insulated Metal Flask with outdoor stickers",
+      "category": "Personal Accessories",
+      "subcategory": "Water Bottles",
+      "description": "Sticker-covered insulated metal drinking flask found by drinking fountain.",
+      "date": "2026-10-15",
+      "time": "16:45",
+      "location": "Athletics Gym Locker Area",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.3896,
+        "lng": -71.0937
+      },
+      "color": "Pacific Blue",
+      "brand": "Hydro Flask",
+      "distinguishingFeatures": [
+        "Yosemite Half Dome sticker",
+        "Yellow silicone flex boot"
+      ],
+      "contactMethod": "Campus Security Desk / TraceBack Claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Security Facility Lockbox Cabinet B-04",
+        "handoverAvailability": "Monday - Friday, 9:00 AM - 5:00 PM with student ID verification",
+        "secretMarks": "Owner phone number written in faint silver marker under rubber boot",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Hydro Flask Water Bottles"
+      },
+      "createdAt": "2026-10-15T20:07:36.138Z",
+      "updatedAt": "2026-10-15T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-10",
+      "type": "lost",
+      "title": "Black Moleskine Dot-Grid Hardcover Journal",
+      "category": "Books & Stationery",
+      "subcategory": "Notebooks",
+      "description": "A5 black dot grid sketchbook containing architectural sketches and capstone research ideas.",
+      "date": "2026-10-13",
+      "time": "14:30",
+      "location": "Arts Pavillion Lecture Hall B",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.391600000000004,
+        "lng": -71.0917
+      },
+      "color": "Black",
+      "brand": "Moleskine",
+      "distinguishingFeatures": [
+        "Yellow ribbon marker",
+        "Rear pocket contains loose watercolor swatches"
+      ],
+      "contactMethod": "In-app secure claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$50 - $1,500",
+      "reward": "$50 Reward for return",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "First page has dedication \"For Studio VI - Autumn 2026\"",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Moleskine Notebooks"
+      },
+      "createdAt": "2026-10-13T20:07:36.138Z",
+      "updatedAt": "2026-10-13T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-10",
+      "type": "found",
+      "title": "Black Hardcover Elastic Notebook with sketches",
+      "category": "Books & Stationery",
+      "subcategory": "Notebooks",
+      "description": "Black ribbon-bound sketchbook left on bench near architecture exhibition.",
+      "date": "2026-10-14",
+      "time": "16:45",
+      "location": "Arts Pavillion Lecture Hall B",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.391600000000004,
+        "lng": -71.0917
+      },
+      "color": "Black",
+      "brand": "Moleskine",
+      "distinguishingFeatures": [
+        "Yellow ribbon marker",
+        "Rear pocket contains loose watercolor swatches"
+      ],
+      "contactMethod": "Campus Security Desk / TraceBack Claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Security Facility Lockbox Cabinet B-04",
+        "handoverAvailability": "Monday - Friday, 9:00 AM - 5:00 PM with student ID verification",
+        "secretMarks": "First page has dedication \"For Studio VI - Autumn 2026\"",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Moleskine Notebooks"
+      },
+      "createdAt": "2026-10-14T20:07:36.138Z",
+      "updatedAt": "2026-10-14T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-11",
+      "type": "lost",
+      "title": "Patagonia Better Sweater Fleece 1/4 Zip",
+      "category": "Clothing & Footwear",
+      "subcategory": "Jackets",
+      "description": "Men’s Medium Stonewash gray fleece pullover left on the back of chair during seminar.",
+      "date": "2026-10-22",
+      "time": "14:30",
+      "location": "Law School Reading Room",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.393600000000006,
+        "lng": -71.08970000000001
+      },
+      "color": "Stonewash Gray",
+      "brand": "Patagonia",
+      "distinguishingFeatures": [
+        "Small repair stitch on left elbow",
+        "Zippered chest pocket"
+      ],
+      "contactMethod": "In-app secure claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$50 - $1,500",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Has university lapel pin attached inside chest pocket",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Patagonia Jackets"
+      },
+      "createdAt": "2026-10-22T20:07:36.138Z",
+      "updatedAt": "2026-10-22T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-11",
+      "type": "found",
+      "title": "Gray Knit Fleece Pullover on coat hook",
+      "category": "Clothing & Footwear",
+      "subcategory": "Jackets",
+      "description": "Gray fleece zipper top found on classroom coat rack after evening lecture.",
+      "date": "2026-10-22",
+      "time": "16:45",
+      "location": "Law School Reading Room",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.393600000000006,
+        "lng": -71.08970000000001
+      },
+      "color": "Stonewash Gray",
+      "brand": "Patagonia",
+      "distinguishingFeatures": [
+        "Small repair stitch on left elbow",
+        "Zippered chest pocket"
+      ],
+      "contactMethod": "Campus Security Desk / TraceBack Claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Security Facility Lockbox Cabinet B-04",
+        "handoverAvailability": "Monday - Friday, 9:00 AM - 5:00 PM with student ID verification",
+        "secretMarks": "Has university lapel pin attached inside chest pocket",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Patagonia Jackets"
+      },
+      "createdAt": "2026-10-22T20:07:36.138Z",
+      "updatedAt": "2026-10-22T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-12",
+      "type": "lost",
+      "title": "Anker Prime 20,000mAh Power Bank with Screen",
+      "category": "Electronics",
+      "subcategory": "Power Banks",
+      "description": "High-wattage black brick charger with digital battery percentage display and dual USB-C ports.",
+      "date": "2026-10-21",
+      "time": "14:30",
+      "location": "Medical Center Cafeteria",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.3956,
+        "lng": -71.0877
+      },
+      "color": "Black / Silver",
+      "brand": "Anker",
+      "distinguishingFeatures": [
+        "Includes short braided purple USB-C cable",
+        "Rubberized base"
+      ],
+      "contactMethod": "In-app secure claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$50 - $1,500",
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Displays 140W max output rating on base label",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Anker Power Banks"
+      },
+      "createdAt": "2026-10-21T20:07:36.138Z",
+      "updatedAt": "2026-10-21T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-12",
+      "type": "found",
+      "title": "Anker Heavy Duty Portable Battery Pack with digital display",
+      "category": "Electronics",
+      "subcategory": "Power Banks",
+      "description": "Found external battery pack plugged into wall outlet near cafeteria booth.",
+      "date": "2026-10-22",
+      "time": "16:45",
+      "location": "Medical Center Cafeteria",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.3956,
+        "lng": -71.0877
+      },
+      "color": "Black / Silver",
+      "brand": "Anker",
+      "distinguishingFeatures": [
+        "Includes short braided purple USB-C cable",
+        "Rubberized base"
+      ],
+      "contactMethod": "Campus Security Desk / TraceBack Claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Security Facility Lockbox Cabinet B-04",
+        "handoverAvailability": "Monday - Friday, 9:00 AM - 5:00 PM with student ID verification",
+        "secretMarks": "Displays 140W max output rating on base label",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Anker Power Banks"
+      },
+      "createdAt": "2026-10-22T20:07:36.138Z",
+      "updatedAt": "2026-10-22T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-13",
+      "type": "lost",
+      "title": "Navy Blue Leather Bi-Fold Wallet",
+      "category": "Personal Accessories",
+      "subcategory": "Wallets",
+      "description": "Lost slim navy leather wallet near transit station entrance. Contains driver license and cards.",
+      "date": "2026-10-20",
+      "time": "14:30",
+      "location": "Central Transit Hub Gate 3",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.397600000000004,
+        "lng": -71.0857
+      },
+      "color": "Navy Blue",
+      "brand": "Fossil",
+      "distinguishingFeatures": [
+        "Embossed anchor crest on front",
+        "RFID blocking badge inside"
+      ],
+      "contactMethod": "In-app secure claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$50 - $1,500",
+      "reward": "$50 Reward for return",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Contains transit pass ending in 8841 and AAA membership card",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Fossil Wallets"
+      },
+      "createdAt": "2026-10-20T20:07:36.138Z",
+      "updatedAt": "2026-10-20T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-13",
+      "type": "found",
+      "title": "Men's Dark Blue Leather Wallet found near ticket gate",
+      "category": "Personal Accessories",
+      "subcategory": "Wallets",
+      "description": "Dark blue wallet handed to transit station booth staff.",
+      "date": "2026-10-21",
+      "time": "16:45",
+      "location": "Central Transit Hub Gate 3",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.397600000000004,
+        "lng": -71.0857
+      },
+      "color": "Navy Blue",
+      "brand": "Fossil",
+      "distinguishingFeatures": [
+        "Embossed anchor crest on front",
+        "RFID blocking badge inside"
+      ],
+      "contactMethod": "Campus Security Desk / TraceBack Claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Security Facility Lockbox Cabinet B-04",
+        "handoverAvailability": "Monday - Friday, 9:00 AM - 5:00 PM with student ID verification",
+        "secretMarks": "Contains transit pass ending in 8841 and AAA membership card",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Fossil Wallets"
+      },
+      "createdAt": "2026-10-21T20:07:36.138Z",
+      "updatedAt": "2026-10-21T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-14",
+      "type": "lost",
+      "title": "Kindle Paperwhite 11th Gen with Fabric Cover",
+      "category": "Electronics",
+      "subcategory": "Kindle & E-Readers",
+      "description": "6.8 inch Kindle with warm light in dark blue water-safe fabric case. Left in lounge armchair.",
+      "date": "2026-10-19",
+      "time": "14:30",
+      "location": "Student Union Dining Hall",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.39960000000001,
+        "lng": -71.08370000000001
+      },
+      "color": "Black / Denim Blue",
+      "brand": "Amazon Kindle",
+      "distinguishingFeatures": [
+        "Matte screen protector applied",
+        "Small crease on cover corner"
+      ],
+      "contactMethod": "In-app secure claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$50 - $1,500",
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Device name: \"Alex's 3rd Kindle\" on settings screen",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Amazon Kindle Kindle & E-Readers"
+      },
+      "createdAt": "2026-10-19T20:07:36.138Z",
+      "updatedAt": "2026-10-19T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-14",
+      "type": "found",
+      "title": "E-Reader in Denim Blue Magnetic Cover",
+      "category": "Electronics",
+      "subcategory": "Kindle & E-Readers",
+      "description": "Digital book reader found tucked between armchair cushions in student union.",
+      "date": "2026-10-20",
+      "time": "16:45",
+      "location": "Student Union Dining Hall",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.39960000000001,
+        "lng": -71.08370000000001
+      },
+      "color": "Black / Denim Blue",
+      "brand": "Amazon Kindle",
+      "distinguishingFeatures": [
+        "Matte screen protector applied",
+        "Small crease on cover corner"
+      ],
+      "contactMethod": "Campus Security Desk / TraceBack Claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Security Facility Lockbox Cabinet B-04",
+        "handoverAvailability": "Monday - Friday, 9:00 AM - 5:00 PM with student ID verification",
+        "secretMarks": "Device name: \"Alex's 3rd Kindle\" on settings screen",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Amazon Kindle Kindle & E-Readers"
+      },
+      "createdAt": "2026-10-20T20:07:36.138Z",
+      "updatedAt": "2026-10-20T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-15",
+      "type": "lost",
+      "title": "Windproof Compact Auto-Open Umbrella",
+      "category": "Personal Accessories",
+      "subcategory": "Umbrellas",
+      "description": "Heavy-duty fiberglass umbrella with curved wooden handle. Left in umbrella stand by entrance.",
+      "date": "2026-10-18",
+      "time": "14:30",
+      "location": "Science Center Atrium",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.4016,
+        "lng": -71.0817
+      },
+      "color": "Dark Navy",
+      "brand": "Blunt / Repel",
+      "distinguishingFeatures": [
+        "Curved maple wood grip",
+        "Reflective silver piping on edge"
+      ],
+      "contactMethod": "In-app secure claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$50 - $1,500",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Inner label has written initials \"R.M.\"",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Blunt / Repel Umbrellas"
+      },
+      "createdAt": "2026-10-18T20:07:36.138Z",
+      "updatedAt": "2026-10-18T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-15",
+      "type": "found",
+      "title": "Dark Navy Sturdy Folding Umbrella with wooden handle",
+      "category": "Personal Accessories",
+      "subcategory": "Umbrellas",
+      "description": "Navy blue compact umbrella in lobby umbrella bin left after Friday rainstorm.",
+      "date": "2026-10-19",
+      "time": "16:45",
+      "location": "Science Center Atrium",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.4016,
+        "lng": -71.0817
+      },
+      "color": "Dark Navy",
+      "brand": "Blunt / Repel",
+      "distinguishingFeatures": [
+        "Curved maple wood grip",
+        "Reflective silver piping on edge"
+      ],
+      "contactMethod": "Campus Security Desk / TraceBack Claim",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Security Facility Lockbox Cabinet B-04",
+        "handoverAvailability": "Monday - Friday, 9:00 AM - 5:00 PM with student ID verification",
+        "secretMarks": "Inner label has written initials \"R.M.\"",
+        "verificationQuestion": "Verify specific identifier or secret mark for this Blunt / Repel Umbrellas"
+      },
+      "createdAt": "2026-10-19T20:07:36.138Z",
+      "updatedAt": "2026-10-19T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-16",
+      "type": "lost",
+      "title": "Graphing Calculator TI-84 Plus CE",
+      "category": "Electronics",
+      "subcategory": "Calculators",
+      "description": "Reported missing around Science Center Atrium. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-21",
+      "time": "11:15",
+      "location": "Science Center Atrium",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.36,
+        "lng": -71.09
+      },
+      "color": "Mint Green",
+      "brand": "Texas Instruments",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 16",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Texas Instruments?"
+      },
+      "createdAt": "2026-10-21T20:07:36.138Z",
+      "updatedAt": "2026-10-21T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-17",
+      "type": "lost",
+      "title": "Black Bose QuietComfort Earbuds II",
+      "category": "Electronics",
+      "subcategory": "Earbuds",
+      "description": "Reported missing around South Dorms Laundry Room. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-20",
+      "time": "11:15",
+      "location": "South Dorms Laundry Room",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.363,
+        "lng": -71.087
+      },
+      "color": "Triple Black",
+      "brand": "Bose",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 17",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Bose?"
+      },
+      "createdAt": "2026-10-20T20:07:36.138Z",
+      "updatedAt": "2026-10-20T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-18",
+      "type": "lost",
+      "title": "Stanley Quencher H2.0 FlowState 40oz",
+      "category": "Personal Accessories",
+      "subcategory": "Water Bottles",
+      "description": "Reported missing around Athletics Gym Locker Area. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-19",
+      "time": "11:15",
+      "location": "Athletics Gym Locker Area",
+      "city": "San Francisco",
+      "coordinates": {
+        "lat": 42.366,
+        "lng": -71.084
+      },
+      "color": "Rose Quartz Pink",
+      "brand": "Stanley",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 18",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Stanley?"
+      },
+      "createdAt": "2026-10-19T20:07:36.138Z",
+      "updatedAt": "2026-10-19T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-19",
+      "type": "lost",
+      "title": "Gold Heart Pendant Necklace",
+      "category": "Personal Accessories",
+      "subcategory": "Jewelry",
+      "description": "Reported missing around Law School Reading Room. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-18",
+      "time": "11:15",
+      "location": "Law School Reading Room",
+      "city": "Chicago",
+      "coordinates": {
+        "lat": 42.369,
+        "lng": -71.081
+      },
+      "color": "14k Yellow Gold",
+      "brand": "Mejuri",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 19",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Mejuri?"
+      },
+      "createdAt": "2026-10-18T20:07:36.138Z",
+      "updatedAt": "2026-10-18T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-20",
+      "type": "lost",
+      "title": "Fjallraven Kanken Classic Backpack",
+      "category": "Bags & Luggage",
+      "subcategory": "Backpacks",
+      "description": "Reported missing around Campus Coffee Commons. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-17",
+      "time": "11:15",
+      "location": "Campus Coffee Commons",
+      "city": "Seattle",
+      "coordinates": {
+        "lat": 42.372,
+        "lng": -71.078
+      },
+      "color": "Ox Red",
+      "brand": "Fjallraven",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 20",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Fjallraven?"
+      },
+      "createdAt": "2026-10-17T20:07:36.138Z",
+      "updatedAt": "2026-10-17T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-21",
+      "type": "lost",
+      "title": "Dorm Room Key with Red Tag #208",
+      "category": "Keys & Badges",
+      "subcategory": "Room Keys",
+      "description": "Reported missing around South Dorms Laundry Room. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-16",
+      "time": "11:15",
+      "location": "South Dorms Laundry Room",
+      "city": "Austin",
+      "coordinates": {
+        "lat": 42.375,
+        "lng": -71.075
+      },
+      "color": "Brass / Red",
+      "brand": "Schlage",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 21",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Schlage?"
+      },
+      "createdAt": "2026-10-16T20:07:36.138Z",
+      "updatedAt": "2026-10-16T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-22",
+      "type": "lost",
+      "title": "SteelSeries Wireless Gaming Mouse",
+      "category": "Electronics",
+      "subcategory": "Computer Peripherals",
+      "description": "Reported missing around North Quad Engineering Lab 204. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-15",
+      "time": "11:15",
+      "location": "North Quad Engineering Lab 204",
+      "city": "New York",
+      "coordinates": {
+        "lat": 42.378,
+        "lng": -71.072
+      },
+      "color": "Matte White",
+      "brand": "SteelSeries",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 22",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this SteelSeries?"
+      },
+      "createdAt": "2026-10-15T20:07:36.138Z",
+      "updatedAt": "2026-10-15T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-23",
+      "type": "lost",
+      "title": "Organic Chemistry Model Kit in Green Box",
+      "category": "Books & Stationery",
+      "subcategory": "Study Aids",
+      "description": "Reported missing around Science Center Atrium. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-14",
+      "time": "11:15",
+      "location": "Science Center Atrium",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.381,
+        "lng": -71.069
+      },
+      "color": "Green / Multicolor",
+      "brand": "Duluth Labs",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 23",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Duluth Labs?"
+      },
+      "createdAt": "2026-10-14T20:07:36.138Z",
+      "updatedAt": "2026-10-14T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-24",
+      "type": "lost",
+      "title": "Black Nike Club Fleece Hoodie (L)",
+      "category": "Clothing & Footwear",
+      "subcategory": "Hoodies",
+      "description": "Reported missing around Athletics Gym Locker Area. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-13",
+      "time": "11:15",
+      "location": "Athletics Gym Locker Area",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.384,
+        "lng": -71.066
+      },
+      "color": "Black",
+      "brand": "Nike",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 24",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Nike?"
+      },
+      "createdAt": "2026-10-13T20:07:36.138Z",
+      "updatedAt": "2026-10-13T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-25",
+      "type": "lost",
+      "title": "Silver iPad Air 5th Gen with Apple Pencil",
+      "category": "Electronics",
+      "subcategory": "Tablets",
+      "description": "Reported missing around Main Library 3rd Floor Quiet Study. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-12",
+      "time": "11:15",
+      "location": "Main Library 3rd Floor Quiet Study",
+      "city": "San Francisco",
+      "coordinates": {
+        "lat": 42.387,
+        "lng": -71.063
+      },
+      "color": "Starlight Silver",
+      "brand": "Apple",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 25",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Apple?"
+      },
+      "createdAt": "2026-10-12T20:07:36.138Z",
+      "updatedAt": "2026-10-12T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-26",
+      "type": "lost",
+      "title": "Ray-Ban Aviator Sunglasses in Black Case",
+      "category": "Personal Accessories",
+      "subcategory": "Eyewear",
+      "description": "Reported missing around Campus Coffee Commons. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-11",
+      "time": "11:15",
+      "location": "Campus Coffee Commons",
+      "city": "Chicago",
+      "coordinates": {
+        "lat": 42.39,
+        "lng": -71.06
+      },
+      "color": "Gold / G-15 Green",
+      "brand": "Ray-Ban",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 26",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Ray-Ban?"
+      },
+      "createdAt": "2026-10-11T20:07:36.138Z",
+      "updatedAt": "2026-10-11T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-27",
+      "type": "lost",
+      "title": "Fujifilm Instax Mini 12 Instant Camera",
+      "category": "Electronics",
+      "subcategory": "Cameras",
+      "description": "Reported missing around Student Union Dining Hall. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-10",
+      "time": "11:15",
+      "location": "Student Union Dining Hall",
+      "city": "Seattle",
+      "coordinates": {
+        "lat": 42.393,
+        "lng": -71.057
+      },
+      "color": "Pastel Blue",
+      "brand": "Fujifilm",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 27",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Fujifilm?"
+      },
+      "createdAt": "2026-10-10T20:07:36.138Z",
+      "updatedAt": "2026-10-10T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-28",
+      "type": "lost",
+      "title": "Matte Navy Lululemon Everywhere Belt Bag",
+      "category": "Bags & Luggage",
+      "subcategory": "Waist Packs",
+      "description": "Reported missing around Athletics Gym Locker Area. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-09",
+      "time": "11:15",
+      "location": "Athletics Gym Locker Area",
+      "city": "Austin",
+      "coordinates": {
+        "lat": 42.396,
+        "lng": -71.054
+      },
+      "color": "True Navy",
+      "brand": "Lululemon",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 28",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Lululemon?"
+      },
+      "createdAt": "2026-10-09T20:07:36.138Z",
+      "updatedAt": "2026-10-09T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-29",
+      "type": "lost",
+      "title": "Casio Vintage Digital Watch A168W",
+      "category": "Personal Accessories",
+      "subcategory": "Watches",
+      "description": "Reported missing around University Bookstore Counter. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-08",
+      "time": "11:15",
+      "location": "University Bookstore Counter",
+      "city": "New York",
+      "coordinates": {
+        "lat": 42.399,
+        "lng": -71.051
+      },
+      "color": "Stainless Silver",
+      "brand": "Casio",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 29",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Casio?"
+      },
+      "createdAt": "2026-10-08T20:07:36.138Z",
+      "updatedAt": "2026-10-08T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-30",
+      "type": "lost",
+      "title": "Yeti Rambler 20oz Tumbler with MagSlider",
+      "category": "Personal Accessories",
+      "subcategory": "Drinkware",
+      "description": "Reported missing around Main Library 3rd Floor Quiet Study. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-07",
+      "time": "11:15",
+      "location": "Main Library 3rd Floor Quiet Study",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.402,
+        "lng": -71.048
+      },
+      "color": "Seafoam",
+      "brand": "Yeti",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 30",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Yeti?"
+      },
+      "createdAt": "2026-10-07T20:07:36.138Z",
+      "updatedAt": "2026-10-07T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-31",
+      "type": "lost",
+      "title": "Black Leather Zip Card Wallet with Key Ring",
+      "category": "Personal Accessories",
+      "subcategory": "Wallets",
+      "description": "Reported missing around Central Transit Hub Gate 3. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-06",
+      "time": "11:15",
+      "location": "Central Transit Hub Gate 3",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.405,
+        "lng": -71.045
+      },
+      "color": "Black Pebble Leather",
+      "brand": "Coach",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 31",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Coach?"
+      },
+      "createdAt": "2026-10-06T20:07:36.138Z",
+      "updatedAt": "2026-10-06T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-32",
+      "type": "lost",
+      "title": "North Face Borealis Commuter Daypack",
+      "category": "Bags & Luggage",
+      "subcategory": "Backpacks",
+      "description": "Reported missing around Arts Pavillion Lecture Hall B. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-05",
+      "time": "11:15",
+      "location": "Arts Pavillion Lecture Hall B",
+      "city": "San Francisco",
+      "coordinates": {
+        "lat": 42.408,
+        "lng": -71.042
+      },
+      "color": "Asphalt Gray",
+      "brand": "The North Face",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 32",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this The North Face?"
+      },
+      "createdAt": "2026-10-05T20:07:36.138Z",
+      "updatedAt": "2026-10-05T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-33",
+      "type": "lost",
+      "title": "Beats Studio Pro Wireless Headphones",
+      "category": "Electronics",
+      "subcategory": "Headphones",
+      "description": "Reported missing around Campus Coffee Commons. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-04",
+      "time": "11:15",
+      "location": "Campus Coffee Commons",
+      "city": "Chicago",
+      "coordinates": {
+        "lat": 42.411,
+        "lng": -71.039
+      },
+      "color": "Deep Brown",
+      "brand": "Beats",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 33",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Beats?"
+      },
+      "createdAt": "2026-10-04T20:07:36.138Z",
+      "updatedAt": "2026-10-04T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-34",
+      "type": "lost",
+      "title": "Bicycle U-Lock with 2 Flat Keys",
+      "category": "Keys & Badges",
+      "subcategory": "Bike Locks",
+      "description": "Reported missing around Science Center Atrium. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-03",
+      "time": "11:15",
+      "location": "Science Center Atrium",
+      "city": "Seattle",
+      "coordinates": {
+        "lat": 42.414,
+        "lng": -71.036
+      },
+      "color": "Orange / Black",
+      "brand": "Kryptonite",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 34",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Kryptonite?"
+      },
+      "createdAt": "2026-10-03T20:07:36.138Z",
+      "updatedAt": "2026-10-03T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-35",
+      "type": "lost",
+      "title": "TI-Nspire CX II CAS Color Calculator",
+      "category": "Electronics",
+      "subcategory": "Calculators",
+      "description": "Reported missing around North Quad Engineering Lab 204. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-02",
+      "time": "11:15",
+      "location": "North Quad Engineering Lab 204",
+      "city": "Austin",
+      "coordinates": {
+        "lat": 42.417,
+        "lng": -71.033
+      },
+      "color": "Navy / White",
+      "brand": "Texas Instruments",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 35",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Texas Instruments?"
+      },
+      "createdAt": "2026-10-02T20:07:36.138Z",
+      "updatedAt": "2026-10-02T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-36",
+      "type": "lost",
+      "title": "Columbia Waterproof Hooded Rain Shell",
+      "category": "Clothing & Footwear",
+      "subcategory": "Jackets",
+      "description": "Reported missing around Student Union Dining Hall. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-01",
+      "time": "11:15",
+      "location": "Student Union Dining Hall",
+      "city": "New York",
+      "coordinates": {
+        "lat": 42.42,
+        "lng": -71.03
+      },
+      "color": "Collegiate Navy",
+      "brand": "Columbia",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 36",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Columbia?"
+      },
+      "createdAt": "2026-10-01T20:07:36.138Z",
+      "updatedAt": "2026-10-01T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-37",
+      "type": "lost",
+      "title": "AirTag on Leather Key Ring Holder",
+      "category": "Electronics",
+      "subcategory": "Trackers",
+      "description": "Reported missing around Main Library 3rd Floor Quiet Study. Last seen during daytime study session. Important personal item.",
+      "date": "2026-09-30",
+      "time": "11:15",
+      "location": "Main Library 3rd Floor Quiet Study",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.423,
+        "lng": -71.027
+      },
+      "color": "Saddle Brown",
+      "brand": "Apple",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 37",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Apple?"
+      },
+      "createdAt": "2026-09-30T20:07:36.138Z",
+      "updatedAt": "2026-09-30T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-38",
+      "type": "lost",
+      "title": "Cambridge University Press Neuroscience Textbook",
+      "category": "Books & Stationery",
+      "subcategory": "Textbooks",
+      "description": "Reported missing around Medical Center Cafeteria. Last seen during daytime study session. Important personal item.",
+      "date": "2026-09-29",
+      "time": "11:15",
+      "location": "Medical Center Cafeteria",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.426,
+        "lng": -71.024
+      },
+      "color": "Hardcover Blue",
+      "brand": "Academic Press",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 38",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Academic Press?"
+      },
+      "createdAt": "2026-09-29T20:07:36.138Z",
+      "updatedAt": "2026-09-29T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-39",
+      "type": "lost",
+      "title": "Sony ZV-1 Vlogging Camera in Pouch",
+      "category": "Electronics",
+      "subcategory": "Cameras",
+      "description": "Reported missing around Arts Pavillion Lecture Hall B. Last seen during daytime study session. Important personal item.",
+      "date": "2026-09-28",
+      "time": "11:15",
+      "location": "Arts Pavillion Lecture Hall B",
+      "city": "San Francisco",
+      "coordinates": {
+        "lat": 42.429,
+        "lng": -71.021
+      },
+      "color": "Black",
+      "brand": "Sony",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 39",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Sony?"
+      },
+      "createdAt": "2026-09-28T20:07:36.138Z",
+      "updatedAt": "2026-09-28T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-40",
+      "type": "lost",
+      "title": "JBL Flip 6 Portable Bluetooth Speaker",
+      "category": "Electronics",
+      "subcategory": "Speakers",
+      "description": "Reported missing around North Quad Engineering Lab 204. Last seen during daytime study session. Important personal item.",
+      "date": "2026-09-27",
+      "time": "11:15",
+      "location": "North Quad Engineering Lab 204",
+      "city": "Chicago",
+      "coordinates": {
+        "lat": 42.432,
+        "lng": -71.018
+      },
+      "color": "Squad Camo / Red",
+      "brand": "JBL",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 40",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this JBL?"
+      },
+      "createdAt": "2026-09-27T20:07:36.138Z",
+      "updatedAt": "2026-09-27T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-41",
+      "type": "lost",
+      "title": "Garmin Forerunner 255 GPS Running Watch",
+      "category": "Personal Accessories",
+      "subcategory": "Watches",
+      "description": "Reported missing around Athletics Gym Locker Area. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-21",
+      "time": "11:15",
+      "location": "Athletics Gym Locker Area",
+      "city": "Seattle",
+      "coordinates": {
+        "lat": 42.435,
+        "lng": -71.015
+      },
+      "color": "Slate Gray",
+      "brand": "Garmin",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 41",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Garmin?"
+      },
+      "createdAt": "2026-10-21T20:07:36.138Z",
+      "updatedAt": "2026-10-21T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-42",
+      "type": "lost",
+      "title": "Herschel Little America Mid-Volume Bag",
+      "category": "Bags & Luggage",
+      "subcategory": "Backpacks",
+      "description": "Reported missing around Law School Reading Room. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-20",
+      "time": "11:15",
+      "location": "Law School Reading Room",
+      "city": "Austin",
+      "coordinates": {
+        "lat": 42.438,
+        "lng": -71.012
+      },
+      "color": "Forest Green",
+      "brand": "Herschel Supply Co.",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 42",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Herschel Supply Co.?"
+      },
+      "createdAt": "2026-10-20T20:07:36.138Z",
+      "updatedAt": "2026-10-20T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-43",
+      "type": "lost",
+      "title": "Logitech MX Master 3S Wireless Mouse",
+      "category": "Electronics",
+      "subcategory": "Peripherals",
+      "description": "Reported missing around Main Library 3rd Floor Quiet Study. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-19",
+      "time": "11:15",
+      "location": "Main Library 3rd Floor Quiet Study",
+      "city": "New York",
+      "coordinates": {
+        "lat": 42.441,
+        "lng": -71.009
+      },
+      "color": "Pale Gray",
+      "brand": "Logitech",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 43",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Logitech?"
+      },
+      "createdAt": "2026-10-19T20:07:36.138Z",
+      "updatedAt": "2026-10-19T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-44",
+      "type": "lost",
+      "title": "Leather Bound Italian Fountain Pen Case",
+      "category": "Books & Stationery",
+      "subcategory": "Pens",
+      "description": "Reported missing around Law School Reading Room. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-18",
+      "time": "11:15",
+      "location": "Law School Reading Room",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.444,
+        "lng": -71.006
+      },
+      "color": "Cognac Brown",
+      "brand": "Lamy",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 44",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Lamy?"
+      },
+      "createdAt": "2026-10-18T20:07:36.138Z",
+      "updatedAt": "2026-10-18T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-45",
+      "type": "lost",
+      "title": "Dorm Laundry Card and Room FOB Clip",
+      "category": "Keys & Badges",
+      "subcategory": "Fobs",
+      "description": "Reported missing around South Dorms Laundry Room. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-17",
+      "time": "11:15",
+      "location": "South Dorms Laundry Room",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.447,
+        "lng": -71.003
+      },
+      "color": "Blue Plastic",
+      "brand": "HID Global",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 45",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this HID Global?"
+      },
+      "createdAt": "2026-10-17T20:07:36.138Z",
+      "updatedAt": "2026-10-17T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-46",
+      "type": "lost",
+      "title": "Osprey Daylite Plus Commuter Pack",
+      "category": "Bags & Luggage",
+      "subcategory": "Backpacks",
+      "description": "Reported missing around Campus Coffee Commons. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-16",
+      "time": "11:15",
+      "location": "Campus Coffee Commons",
+      "city": "San Francisco",
+      "coordinates": {
+        "lat": 42.45,
+        "lng": -71
+      },
+      "color": "Black / Wave Blue",
+      "brand": "Osprey",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 46",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Osprey?"
+      },
+      "createdAt": "2026-10-16T20:07:36.138Z",
+      "updatedAt": "2026-10-16T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-47",
+      "type": "lost",
+      "title": "Fujitsu ScanSnap Mobile Document Scanner",
+      "category": "Electronics",
+      "subcategory": "Scanners",
+      "description": "Reported missing around Science Center Atrium. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-15",
+      "time": "11:15",
+      "location": "Science Center Atrium",
+      "city": "Chicago",
+      "coordinates": {
+        "lat": 42.453,
+        "lng": -70.997
+      },
+      "color": "White",
+      "brand": "Fujitsu",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 47",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Fujitsu?"
+      },
+      "createdAt": "2026-10-15T20:07:36.138Z",
+      "updatedAt": "2026-10-15T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-48",
+      "type": "lost",
+      "title": "Lululemon Daily Yoga Mat 5mm",
+      "category": "Personal Accessories",
+      "subcategory": "Fitness",
+      "description": "Reported missing around Athletics Gym Locker Area. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-14",
+      "time": "11:15",
+      "location": "Athletics Gym Locker Area",
+      "city": "Seattle",
+      "coordinates": {
+        "lat": 42.455999999999996,
+        "lng": -70.994
+      },
+      "color": "Mulled Wine / Purple",
+      "brand": "Lululemon",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 48",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Lululemon?"
+      },
+      "createdAt": "2026-10-14T20:07:36.138Z",
+      "updatedAt": "2026-10-14T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-49",
+      "type": "lost",
+      "title": "Samsung Galaxy Buds2 Pro with Violet Case",
+      "category": "Electronics",
+      "subcategory": "Earbuds",
+      "description": "Reported missing around Student Union Dining Hall. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-13",
+      "time": "11:15",
+      "location": "Student Union Dining Hall",
+      "city": "Austin",
+      "coordinates": {
+        "lat": 42.458999999999996,
+        "lng": -70.991
+      },
+      "color": "Bora Purple",
+      "brand": "Samsung",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 49",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Samsung?"
+      },
+      "createdAt": "2026-10-13T20:07:36.138Z",
+      "updatedAt": "2026-10-13T20:07:36.138Z"
+    },
+    {
+      "id": "lost-demo-50",
+      "type": "lost",
+      "title": "Stainless Steel Travel Mug with Sip Lid",
+      "category": "Personal Accessories",
+      "subcategory": "Drinkware",
+      "description": "Reported missing around Central Transit Hub Gate 3. Last seen during daytime study session. Important personal item.",
+      "date": "2026-10-12",
+      "time": "11:15",
+      "location": "Central Transit Hub Gate 3",
+      "city": "New York",
+      "coordinates": {
+        "lat": 42.461999999999996,
+        "lng": -70.988
+      },
+      "color": "Brushed Steel",
+      "brand": "Contigo",
+      "distinguishingFeatures": [
+        "Serial identification or stickers",
+        "Personal wear marks"
+      ],
+      "contactMethod": "TraceBack message",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "estimatedValue": "$30 - $450",
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-demo-student",
+      "userName": "David Miller",
+      "userEmail": "david.miller@campus.edu",
+      "isDemo": true,
+      "privateClues": {
+        "secretMarks": "Owner verification note for demo 50",
+        "verificationQuestion": "Can you confirm any unique physical mark or serial on this Contigo?"
+      },
+      "createdAt": "2026-10-12T20:07:36.138Z",
+      "updatedAt": "2026-10-12T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-16",
+      "type": "found",
+      "title": "Scientific Calculator TI-84 Plus in green sliding cover",
+      "category": "Electronics",
+      "subcategory": "Calculators",
+      "description": "Discovered unattended near Science Center Atrium. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-22",
+      "time": "14:20",
+      "location": "Science Center Atrium",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.36,
+        "lng": -71.09
+      },
+      "color": "Mint Green",
+      "brand": "Texas Instruments",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 116",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4016",
+        "verificationQuestion": "Can you state unique contents or serial number for this Texas Instruments?"
+      },
+      "createdAt": "2026-10-22T20:07:36.138Z",
+      "updatedAt": "2026-10-22T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-17",
+      "type": "found",
+      "title": "Black Wireless Earbuds Charging Pod (Bose)",
+      "category": "Electronics",
+      "subcategory": "Earbuds",
+      "description": "Discovered unattended near South Dorms Laundry Room. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-21",
+      "time": "14:20",
+      "location": "South Dorms Laundry Room",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.363,
+        "lng": -71.087
+      },
+      "color": "Triple Black",
+      "brand": "Bose",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 117",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4017",
+        "verificationQuestion": "Can you state unique contents or serial number for this Bose?"
+      },
+      "createdAt": "2026-10-21T20:07:36.138Z",
+      "updatedAt": "2026-10-21T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-18",
+      "type": "found",
+      "title": "Pink Insulated 40oz Tumbler with Straw",
+      "category": "Personal Accessories",
+      "subcategory": "Water Bottles",
+      "description": "Discovered unattended near Athletics Gym Locker Area. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-20",
+      "time": "14:20",
+      "location": "Athletics Gym Locker Area",
+      "city": "San Francisco",
+      "coordinates": {
+        "lat": 42.366,
+        "lng": -71.084
+      },
+      "color": "Rose Quartz Pink",
+      "brand": "Stanley",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 118",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4018",
+        "verificationQuestion": "Can you state unique contents or serial number for this Stanley?"
+      },
+      "createdAt": "2026-10-20T20:07:36.138Z",
+      "updatedAt": "2026-10-20T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-19",
+      "type": "found",
+      "title": "Gold Delicate Chain Necklace with small pendant",
+      "category": "Personal Accessories",
+      "subcategory": "Jewelry",
+      "description": "Discovered unattended near Law School Reading Room. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-19",
+      "time": "14:20",
+      "location": "Law School Reading Room",
+      "city": "Chicago",
+      "coordinates": {
+        "lat": 42.369,
+        "lng": -71.081
+      },
+      "color": "Yellow Gold Tone",
+      "brand": "Unmarked",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 119",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4019",
+        "verificationQuestion": "Can you state unique contents or serial number for this Unmarked?"
+      },
+      "createdAt": "2026-10-19T20:07:36.138Z",
+      "updatedAt": "2026-10-19T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-20",
+      "type": "found",
+      "title": "Fjallraven Red Mini Backpack turned in to lost desk",
+      "category": "Bags & Luggage",
+      "subcategory": "Backpacks",
+      "description": "Discovered unattended near Campus Coffee Commons. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-18",
+      "time": "14:20",
+      "location": "Campus Coffee Commons",
+      "city": "Seattle",
+      "coordinates": {
+        "lat": 42.372,
+        "lng": -71.078
+      },
+      "color": "Ox Red",
+      "brand": "Fjallraven",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 120",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4020",
+        "verificationQuestion": "Can you state unique contents or serial number for this Fjallraven?"
+      },
+      "createdAt": "2026-10-18T20:07:36.138Z",
+      "updatedAt": "2026-10-18T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-21",
+      "type": "found",
+      "title": "Single Brass Key on Red Plastic Tag",
+      "category": "Keys & Badges",
+      "subcategory": "Room Keys",
+      "description": "Discovered unattended near South Dorms Laundry Room. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-17",
+      "time": "14:20",
+      "location": "South Dorms Laundry Room",
+      "city": "Austin",
+      "coordinates": {
+        "lat": 42.375,
+        "lng": -71.075
+      },
+      "color": "Brass / Red",
+      "brand": "Schlage",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 121",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4021",
+        "verificationQuestion": "Can you state unique contents or serial number for this Schlage?"
+      },
+      "createdAt": "2026-10-17T20:07:36.138Z",
+      "updatedAt": "2026-10-17T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-22",
+      "type": "found",
+      "title": "White RGB Gaming Mouse found on computer workstation",
+      "category": "Electronics",
+      "subcategory": "Computer Peripherals",
+      "description": "Discovered unattended near North Quad Engineering Lab 204. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-16",
+      "time": "14:20",
+      "location": "North Quad Engineering Lab 204",
+      "city": "New York",
+      "coordinates": {
+        "lat": 42.378,
+        "lng": -71.072
+      },
+      "color": "Matte White",
+      "brand": "SteelSeries",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 122",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4022",
+        "verificationQuestion": "Can you state unique contents or serial number for this SteelSeries?"
+      },
+      "createdAt": "2026-10-16T20:07:36.138Z",
+      "updatedAt": "2026-10-16T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-23",
+      "type": "found",
+      "title": "Chemistry Molecular Structure Ball & Stick Kit",
+      "category": "Books & Stationery",
+      "subcategory": "Study Aids",
+      "description": "Discovered unattended near Science Center Atrium. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-15",
+      "time": "14:20",
+      "location": "Science Center Atrium",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.381,
+        "lng": -71.069
+      },
+      "color": "Green Plastic Casing",
+      "brand": "Duluth Labs",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 123",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4023",
+        "verificationQuestion": "Can you state unique contents or serial number for this Duluth Labs?"
+      },
+      "createdAt": "2026-10-15T20:07:36.138Z",
+      "updatedAt": "2026-10-15T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-24",
+      "type": "found",
+      "title": "Black Heavyweight Fleece Pullover Hoodie",
+      "category": "Clothing & Footwear",
+      "subcategory": "Hoodies",
+      "description": "Discovered unattended near Athletics Gym Locker Area. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-14",
+      "time": "14:20",
+      "location": "Athletics Gym Locker Area",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.384,
+        "lng": -71.066
+      },
+      "color": "Black",
+      "brand": "Nike",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 124",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4024",
+        "verificationQuestion": "Can you state unique contents or serial number for this Nike?"
+      },
+      "createdAt": "2026-10-14T20:07:36.138Z",
+      "updatedAt": "2026-10-14T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-25",
+      "type": "found",
+      "title": "Silver Tablet Computer with Stylus Pen attached",
+      "category": "Electronics",
+      "subcategory": "Tablets",
+      "description": "Discovered unattended near Main Library 3rd Floor Quiet Study. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-13",
+      "time": "14:20",
+      "location": "Main Library 3rd Floor Quiet Study",
+      "city": "San Francisco",
+      "coordinates": {
+        "lat": 42.387,
+        "lng": -71.063
+      },
+      "color": "Silver",
+      "brand": "Apple",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 125",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4025",
+        "verificationQuestion": "Can you state unique contents or serial number for this Apple?"
+      },
+      "createdAt": "2026-10-13T20:07:36.138Z",
+      "updatedAt": "2026-10-13T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-26",
+      "type": "found",
+      "title": "Gold Frame Aviator Style Sunglasses in snap case",
+      "category": "Personal Accessories",
+      "subcategory": "Eyewear",
+      "description": "Discovered unattended near Campus Coffee Commons. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-12",
+      "time": "14:20",
+      "location": "Campus Coffee Commons",
+      "city": "Chicago",
+      "coordinates": {
+        "lat": 42.39,
+        "lng": -71.06
+      },
+      "color": "Gold / Dark Tint",
+      "brand": "Ray-Ban",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 126",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4026",
+        "verificationQuestion": "Can you state unique contents or serial number for this Ray-Ban?"
+      },
+      "createdAt": "2026-10-12T20:07:36.138Z",
+      "updatedAt": "2026-10-12T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-27",
+      "type": "found",
+      "title": "Blue Instant Print Camera with shoulder cord",
+      "category": "Electronics",
+      "subcategory": "Cameras",
+      "description": "Discovered unattended near Student Union Dining Hall. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-11",
+      "time": "14:20",
+      "location": "Student Union Dining Hall",
+      "city": "Seattle",
+      "coordinates": {
+        "lat": 42.393,
+        "lng": -71.057
+      },
+      "color": "Pastel Blue",
+      "brand": "Fujifilm",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 127",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4027",
+        "verificationQuestion": "Can you state unique contents or serial number for this Fujifilm?"
+      },
+      "createdAt": "2026-10-11T20:07:36.138Z",
+      "updatedAt": "2026-10-11T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-28",
+      "type": "found",
+      "title": "Navy Zippered Crossbody Belt Bag",
+      "category": "Bags & Luggage",
+      "subcategory": "Waist Packs",
+      "description": "Discovered unattended near Athletics Gym Locker Area. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-10",
+      "time": "14:20",
+      "location": "Athletics Gym Locker Area",
+      "city": "Austin",
+      "coordinates": {
+        "lat": 42.396,
+        "lng": -71.054
+      },
+      "color": "Navy Blue",
+      "brand": "Lululemon",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 128",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4028",
+        "verificationQuestion": "Can you state unique contents or serial number for this Lululemon?"
+      },
+      "createdAt": "2026-10-10T20:07:36.138Z",
+      "updatedAt": "2026-10-10T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-29",
+      "type": "found",
+      "title": "Vintage Style Steel Digital Watch with metal band",
+      "category": "Personal Accessories",
+      "subcategory": "Watches",
+      "description": "Discovered unattended near University Bookstore Counter. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-09",
+      "time": "14:20",
+      "location": "University Bookstore Counter",
+      "city": "New York",
+      "coordinates": {
+        "lat": 42.399,
+        "lng": -71.051
+      },
+      "color": "Metallic Silver",
+      "brand": "Casio",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 129",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4029",
+        "verificationQuestion": "Can you state unique contents or serial number for this Casio?"
+      },
+      "createdAt": "2026-10-09T20:07:36.138Z",
+      "updatedAt": "2026-10-09T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-30",
+      "type": "found",
+      "title": "Seafoam Green Insulated Drink Tumbler with sliding lid",
+      "category": "Personal Accessories",
+      "subcategory": "Drinkware",
+      "description": "Discovered unattended near Main Library 3rd Floor Quiet Study. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-08",
+      "time": "14:20",
+      "location": "Main Library 3rd Floor Quiet Study",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.402,
+        "lng": -71.048
+      },
+      "color": "Seafoam",
+      "brand": "Yeti",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 130",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4030",
+        "verificationQuestion": "Can you state unique contents or serial number for this Yeti?"
+      },
+      "createdAt": "2026-10-08T20:07:36.138Z",
+      "updatedAt": "2026-10-08T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-31",
+      "type": "found",
+      "title": "Black Leather Card Sleeve with key loop",
+      "category": "Personal Accessories",
+      "subcategory": "Wallets",
+      "description": "Discovered unattended near Central Transit Hub Gate 3. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-07",
+      "time": "14:20",
+      "location": "Central Transit Hub Gate 3",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.405,
+        "lng": -71.045
+      },
+      "color": "Black",
+      "brand": "Coach",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 131",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4031",
+        "verificationQuestion": "Can you state unique contents or serial number for this Coach?"
+      },
+      "createdAt": "2026-10-07T20:07:36.138Z",
+      "updatedAt": "2026-10-07T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-32",
+      "type": "found",
+      "title": "Dark Gray Daypack with bungee cord front",
+      "category": "Bags & Luggage",
+      "subcategory": "Backpacks",
+      "description": "Discovered unattended near Arts Pavillion Lecture Hall B. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-06",
+      "time": "14:20",
+      "location": "Arts Pavillion Lecture Hall B",
+      "city": "San Francisco",
+      "coordinates": {
+        "lat": 42.408,
+        "lng": -71.042
+      },
+      "color": "Asphalt Gray",
+      "brand": "The North Face",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 132",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4032",
+        "verificationQuestion": "Can you state unique contents or serial number for this The North Face?"
+      },
+      "createdAt": "2026-10-06T20:07:36.138Z",
+      "updatedAt": "2026-10-06T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-33",
+      "type": "found",
+      "title": "Over-Ear Brown Leatherette Headset",
+      "category": "Electronics",
+      "subcategory": "Headphones",
+      "description": "Discovered unattended near Campus Coffee Commons. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-05",
+      "time": "14:20",
+      "location": "Campus Coffee Commons",
+      "city": "Chicago",
+      "coordinates": {
+        "lat": 42.411,
+        "lng": -71.039
+      },
+      "color": "Dark Mocha Brown",
+      "brand": "Beats",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 133",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4033",
+        "verificationQuestion": "Can you state unique contents or serial number for this Beats?"
+      },
+      "createdAt": "2026-10-05T20:07:36.138Z",
+      "updatedAt": "2026-10-05T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-34",
+      "type": "found",
+      "title": "Bicycle Lock with Keys attached in bike rack",
+      "category": "Keys & Badges",
+      "subcategory": "Bike Locks",
+      "description": "Discovered unattended near Science Center Atrium. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-04",
+      "time": "14:20",
+      "location": "Science Center Atrium",
+      "city": "Seattle",
+      "coordinates": {
+        "lat": 42.414,
+        "lng": -71.036
+      },
+      "color": "Orange / Black",
+      "brand": "Kryptonite",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 134",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4034",
+        "verificationQuestion": "Can you state unique contents or serial number for this Kryptonite?"
+      },
+      "createdAt": "2026-10-04T20:07:36.138Z",
+      "updatedAt": "2026-10-04T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-35",
+      "type": "found",
+      "title": "Graphing Calculator with Color Screen in slide cover",
+      "category": "Electronics",
+      "subcategory": "Calculators",
+      "description": "Discovered unattended near North Quad Engineering Lab 204. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-03",
+      "time": "14:20",
+      "location": "North Quad Engineering Lab 204",
+      "city": "Austin",
+      "coordinates": {
+        "lat": 42.417,
+        "lng": -71.033
+      },
+      "color": "Navy / White",
+      "brand": "Texas Instruments",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 135",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4035",
+        "verificationQuestion": "Can you state unique contents or serial number for this Texas Instruments?"
+      },
+      "createdAt": "2026-10-03T20:07:36.138Z",
+      "updatedAt": "2026-10-03T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-36",
+      "type": "found",
+      "title": "Navy Blue Lightweight Rain Jacket found on chair",
+      "category": "Clothing & Footwear",
+      "subcategory": "Jackets",
+      "description": "Discovered unattended near Student Union Dining Hall. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-22",
+      "time": "14:20",
+      "location": "Student Union Dining Hall",
+      "city": "New York",
+      "coordinates": {
+        "lat": 42.42,
+        "lng": -71.03
+      },
+      "color": "Navy",
+      "brand": "Columbia",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 136",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4036",
+        "verificationQuestion": "Can you state unique contents or serial number for this Columbia?"
+      },
+      "createdAt": "2026-10-22T20:07:36.138Z",
+      "updatedAt": "2026-10-22T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-37",
+      "type": "found",
+      "title": "Round Bluetooth Tracker Tag in leather fob",
+      "category": "Electronics",
+      "subcategory": "Trackers",
+      "description": "Discovered unattended near Main Library 3rd Floor Quiet Study. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-21",
+      "time": "14:20",
+      "location": "Main Library 3rd Floor Quiet Study",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.423,
+        "lng": -71.027
+      },
+      "color": "Brown Leather",
+      "brand": "Apple",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 137",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4037",
+        "verificationQuestion": "Can you state unique contents or serial number for this Apple?"
+      },
+      "createdAt": "2026-10-21T20:07:36.138Z",
+      "updatedAt": "2026-10-21T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-38",
+      "type": "found",
+      "title": "Hardcover Medical Sciences Textbook found on desk",
+      "category": "Books & Stationery",
+      "subcategory": "Textbooks",
+      "description": "Discovered unattended near Medical Center Cafeteria. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-20",
+      "time": "14:20",
+      "location": "Medical Center Cafeteria",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.426,
+        "lng": -71.024
+      },
+      "color": "Blue Cover",
+      "brand": "Academic Press",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 138",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4038",
+        "verificationQuestion": "Can you state unique contents or serial number for this Academic Press?"
+      },
+      "createdAt": "2026-10-20T20:07:36.138Z",
+      "updatedAt": "2026-10-20T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-39",
+      "type": "found",
+      "title": "Compact Digital Camera in protective pouch",
+      "category": "Electronics",
+      "subcategory": "Cameras",
+      "description": "Discovered unattended near Arts Pavillion Lecture Hall B. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-19",
+      "time": "14:20",
+      "location": "Arts Pavillion Lecture Hall B",
+      "city": "San Francisco",
+      "coordinates": {
+        "lat": 42.429,
+        "lng": -71.021
+      },
+      "color": "Black",
+      "brand": "Sony",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 139",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4039",
+        "verificationQuestion": "Can you state unique contents or serial number for this Sony?"
+      },
+      "createdAt": "2026-10-19T20:07:36.138Z",
+      "updatedAt": "2026-10-19T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-40",
+      "type": "found",
+      "title": "Camo Cylindrical Wireless Speaker",
+      "category": "Electronics",
+      "subcategory": "Speakers",
+      "description": "Discovered unattended near North Quad Engineering Lab 204. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-18",
+      "time": "14:20",
+      "location": "North Quad Engineering Lab 204",
+      "city": "Chicago",
+      "coordinates": {
+        "lat": 42.432,
+        "lng": -71.018
+      },
+      "color": "Camouflage / Red",
+      "brand": "JBL",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 140",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4040",
+        "verificationQuestion": "Can you state unique contents or serial number for this JBL?"
+      },
+      "createdAt": "2026-10-18T20:07:36.138Z",
+      "updatedAt": "2026-10-18T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-41",
+      "type": "found",
+      "title": "Black Fitness Sports GPS Watch with silicone band",
+      "category": "Personal Accessories",
+      "subcategory": "Watches",
+      "description": "Discovered unattended near Athletics Gym Locker Area. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-17",
+      "time": "14:20",
+      "location": "Athletics Gym Locker Area",
+      "city": "Seattle",
+      "coordinates": {
+        "lat": 42.435,
+        "lng": -71.015
+      },
+      "color": "Dark Gray",
+      "brand": "Garmin",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 141",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4041",
+        "verificationQuestion": "Can you state unique contents or serial number for this Garmin?"
+      },
+      "createdAt": "2026-10-17T20:07:36.138Z",
+      "updatedAt": "2026-10-17T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-42",
+      "type": "found",
+      "title": "Green Canvas Backpack with brown synthetic straps",
+      "category": "Bags & Luggage",
+      "subcategory": "Backpacks",
+      "description": "Discovered unattended near Law School Reading Room. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-16",
+      "time": "14:20",
+      "location": "Law School Reading Room",
+      "city": "Austin",
+      "coordinates": {
+        "lat": 42.438,
+        "lng": -71.012
+      },
+      "color": "Forest Green",
+      "brand": "Herschel Supply Co.",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 142",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4042",
+        "verificationQuestion": "Can you state unique contents or serial number for this Herschel Supply Co.?"
+      },
+      "createdAt": "2026-10-16T20:07:36.138Z",
+      "updatedAt": "2026-10-16T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-43",
+      "type": "found",
+      "title": "Ergonomic Gray Computer Mouse turned in to lab tech",
+      "category": "Electronics",
+      "subcategory": "Peripherals",
+      "description": "Discovered unattended near Main Library 3rd Floor Quiet Study. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-15",
+      "time": "14:20",
+      "location": "Main Library 3rd Floor Quiet Study",
+      "city": "New York",
+      "coordinates": {
+        "lat": 42.441,
+        "lng": -71.009
+      },
+      "color": "Light Gray",
+      "brand": "Logitech",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 143",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4043",
+        "verificationQuestion": "Can you state unique contents or serial number for this Logitech?"
+      },
+      "createdAt": "2026-10-15T20:07:36.138Z",
+      "updatedAt": "2026-10-15T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-44",
+      "type": "found",
+      "title": "Leather Zippered Writing Instrument Case",
+      "category": "Books & Stationery",
+      "subcategory": "Pens",
+      "description": "Discovered unattended near Law School Reading Room. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-14",
+      "time": "14:20",
+      "location": "Law School Reading Room",
+      "city": "Boston",
+      "coordinates": {
+        "lat": 42.444,
+        "lng": -71.006
+      },
+      "color": "Brown Leather",
+      "brand": "Lamy",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 144",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4044",
+        "verificationQuestion": "Can you state unique contents or serial number for this Lamy?"
+      },
+      "createdAt": "2026-10-14T20:07:36.138Z",
+      "updatedAt": "2026-10-14T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-45",
+      "type": "found",
+      "title": "Blue Electronic Access Keycard on plastic reel",
+      "category": "Keys & Badges",
+      "subcategory": "Fobs",
+      "description": "Discovered unattended near South Dorms Laundry Room. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-13",
+      "time": "14:20",
+      "location": "South Dorms Laundry Room",
+      "city": "Cambridge",
+      "coordinates": {
+        "lat": 42.447,
+        "lng": -71.003
+      },
+      "color": "Blue",
+      "brand": "HID Global",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 145",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4045",
+        "verificationQuestion": "Can you state unique contents or serial number for this HID Global?"
+      },
+      "createdAt": "2026-10-13T20:07:36.138Z",
+      "updatedAt": "2026-10-13T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-46",
+      "type": "found",
+      "title": "Black Hiking Daypack found on bench",
+      "category": "Bags & Luggage",
+      "subcategory": "Backpacks",
+      "description": "Discovered unattended near Campus Coffee Commons. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-12",
+      "time": "14:20",
+      "location": "Campus Coffee Commons",
+      "city": "San Francisco",
+      "coordinates": {
+        "lat": 42.45,
+        "lng": -71
+      },
+      "color": "Black / Blue trim",
+      "brand": "Osprey",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 146",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4046",
+        "verificationQuestion": "Can you state unique contents or serial number for this Osprey?"
+      },
+      "createdAt": "2026-10-12T20:07:36.138Z",
+      "updatedAt": "2026-10-12T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-47",
+      "type": "found",
+      "title": "Compact Desktop Scanner handed in to admin",
+      "category": "Electronics",
+      "subcategory": "Scanners",
+      "description": "Discovered unattended near Science Center Atrium. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-11",
+      "time": "14:20",
+      "location": "Science Center Atrium",
+      "city": "Chicago",
+      "coordinates": {
+        "lat": 42.453,
+        "lng": -70.997
+      },
+      "color": "White",
+      "brand": "Fujitsu",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 147",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4047",
+        "verificationQuestion": "Can you state unique contents or serial number for this Fujitsu?"
+      },
+      "createdAt": "2026-10-11T20:07:36.138Z",
+      "updatedAt": "2026-10-11T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-48",
+      "type": "found",
+      "title": "Rolled Burgundy Exercise Mat with strap",
+      "category": "Personal Accessories",
+      "subcategory": "Fitness",
+      "description": "Discovered unattended near Athletics Gym Locker Area. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-10",
+      "time": "14:20",
+      "location": "Athletics Gym Locker Area",
+      "city": "Seattle",
+      "coordinates": {
+        "lat": 42.455999999999996,
+        "lng": -70.994
+      },
+      "color": "Deep Burgundy",
+      "brand": "Lululemon",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 148",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4048",
+        "verificationQuestion": "Can you state unique contents or serial number for this Lululemon?"
+      },
+      "createdAt": "2026-10-10T20:07:36.138Z",
+      "updatedAt": "2026-10-10T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-49",
+      "type": "found",
+      "title": "Purple Wireless Earphones in charging cradle",
+      "category": "Electronics",
+      "subcategory": "Earbuds",
+      "description": "Discovered unattended near Student Union Dining Hall. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-09",
+      "time": "14:20",
+      "location": "Student Union Dining Hall",
+      "city": "Austin",
+      "coordinates": {
+        "lat": 42.458999999999996,
+        "lng": -70.991
+      },
+      "color": "Lavender Purple",
+      "brand": "Samsung",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": true,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 149",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4049",
+        "verificationQuestion": "Can you state unique contents or serial number for this Samsung?"
+      },
+      "createdAt": "2026-10-09T20:07:36.138Z",
+      "updatedAt": "2026-10-09T20:07:36.138Z"
+    },
+    {
+      "id": "found-demo-50",
+      "type": "found",
+      "title": "Insulated Stainless Coffee Travel Flask",
+      "category": "Personal Accessories",
+      "subcategory": "Drinkware",
+      "description": "Discovered unattended near Central Transit Hub Gate 3. Deposited safely with facilities operations for verified owner claim.",
+      "date": "2026-10-08",
+      "time": "14:20",
+      "location": "Central Transit Hub Gate 3",
+      "city": "New York",
+      "coordinates": {
+        "lat": 42.461999999999996,
+        "lng": -70.988
+      },
+      "color": "Silver Metal",
+      "brand": "Contigo",
+      "distinguishingFeatures": [
+        "Item logged in facility register",
+        "Safe custody verified"
+      ],
+      "contactMethod": "Campus Facility Operations Desk",
+      "images": [
+        {
+          "url": "",
+          "isIllustrative": false
+        }
+      ],
+      "sensitiveData": false,
+      "status": "open",
+      "userId": "usr-mod-1",
+      "userName": "Sarah Chen",
+      "userEmail": "sarah.chen@traceback.org",
+      "isDemo": true,
+      "privateClues": {
+        "exactStorageLocation": "Campus Facility Storage Locker 150",
+        "handoverAvailability": "Weekdays 09:00 - 17:00 at Campus Safety",
+        "secretMarks": "Facility verification log #4050",
+        "verificationQuestion": "Can you state unique contents or serial number for this Contigo?"
+      },
+      "createdAt": "2026-10-08T20:07:36.138Z",
+      "updatedAt": "2026-10-08T20:07:36.138Z"
+    }
+  ],
+  "matches": [],
+  "claims": [
+    {
+      "id": "claim-e2e-1792809081814",
+      "foundItemId": "found-e2e-1792809081813",
+      "foundItemTitle": "Found Navy Blue Herschel Rucksack",
+      "lostItemId": "lost-e2e-1792809081813",
+      "claimantUserId": "usr-test-1792809081810",
+      "claimantName": "Test Student",
+      "claimantEmail": "tester-1792809081810@campus.edu",
+      "reporterUserId": "usr-admin-1",
+      "status": "completed",
+      "answers": [
+        {
+          "question": "What initials are written on the inside seam?",
+          "answer": "T.S."
+        }
+      ],
+      "privateProofDescription": "Receipt from Herschel store with purchase date September 2025.",
+      "handoverDetails": {
+        "safeLocation": "Student Union Desk",
+        "verificationCode": "TB-9912",
+        "reporterConfirmed": true,
+        "claimantConfirmed": true
+      },
+      "timeline": [
+        {
+          "action": "Claim Submitted",
+          "timestamp": "2026-10-24T02:31:21.813Z",
+          "by": "Test Student"
+        }
+      ],
+      "createdAt": "2026-10-24T02:31:21.813Z",
+      "updatedAt": "2026-10-24T02:31:21.814Z",
+      "reviewNotes": "Initials match physical inspection inside bag tag."
+    },
+    {
+      "id": "claim-e2e-1792808952142",
+      "foundItemId": "found-e2e-1792808952142",
+      "foundItemTitle": "Found Navy Blue Herschel Rucksack",
+      "lostItemId": "lost-e2e-1792808952141",
+      "claimantUserId": "usr-test-1792808952139",
+      "claimantName": "Test Student",
+      "claimantEmail": "tester-1792808952138@campus.edu",
+      "reporterUserId": "usr-admin-1",
+      "status": "completed",
+      "answers": [
+        {
+          "question": "What initials are written on the inside seam?",
+          "answer": "T.S."
+        }
+      ],
+      "privateProofDescription": "Receipt from Herschel store with purchase date September 2025.",
+      "handoverDetails": {
+        "safeLocation": "Student Union Desk",
+        "verificationCode": "TB-9912",
+        "reporterConfirmed": true,
+        "claimantConfirmed": true
+      },
+      "timeline": [
+        {
+          "action": "Claim Submitted",
+          "timestamp": "2026-10-24T02:29:12.141Z",
+          "by": "Test Student"
+        }
+      ],
+      "createdAt": "2026-10-24T02:29:12.141Z",
+      "updatedAt": "2026-10-24T02:29:12.142Z",
+      "reviewNotes": "Initials match physical inspection inside bag tag."
+    },
+    {
+      "id": "claim-e2e-1792808483705",
+      "foundItemId": "found-e2e-1792808483705",
+      "foundItemTitle": "Found Navy Blue Herschel Rucksack",
+      "lostItemId": "lost-e2e-1792808483705",
+      "claimantUserId": "usr-test-1792808483703",
+      "claimantName": "Test Student",
+      "claimantEmail": "tester-1792808483703@campus.edu",
+      "reporterUserId": "usr-admin-1",
+      "status": "completed",
+      "answers": [
+        {
+          "question": "What initials are written on the inside seam?",
+          "answer": "T.S."
+        }
+      ],
+      "privateProofDescription": "Receipt from Herschel store with purchase date September 2025.",
+      "handoverDetails": {
+        "safeLocation": "Student Union Desk",
+        "verificationCode": "TB-9912",
+        "reporterConfirmed": true,
+        "claimantConfirmed": true
+      },
+      "timeline": [
+        {
+          "action": "Claim Submitted",
+          "timestamp": "2026-10-24T02:21:23.705Z",
+          "by": "Test Student"
+        }
+      ],
+      "createdAt": "2026-10-24T02:21:23.705Z",
+      "updatedAt": "2026-10-24T02:21:23.706Z",
+      "reviewNotes": "Initials match physical inspection inside bag tag."
+    },
+    {
+      "id": "claim-e2e-1792786633551",
+      "foundItemId": "found-e2e-1792786633551",
+      "foundItemTitle": "Found Navy Blue Herschel Rucksack",
+      "lostItemId": "lost-e2e-1792786633550",
+      "claimantUserId": "usr-test-1792786633549",
+      "claimantName": "Test Student",
+      "claimantEmail": "tester-1792786633548@campus.edu",
+      "reporterUserId": "usr-admin-1",
+      "status": "completed",
+      "answers": [
+        {
+          "question": "What initials are written on the inside seam?",
+          "answer": "T.S."
+        }
+      ],
+      "privateProofDescription": "Receipt from Herschel store with purchase date September 2025.",
+      "handoverDetails": {
+        "safeLocation": "Student Union Desk",
+        "verificationCode": "TB-9912",
+        "reporterConfirmed": true,
+        "claimantConfirmed": true
+      },
+      "timeline": [
+        {
+          "action": "Claim Submitted",
+          "timestamp": "2026-10-23T20:17:13.550Z",
+          "by": "Test Student"
+        }
+      ],
+      "createdAt": "2026-10-23T20:17:13.550Z",
+      "updatedAt": "2026-10-23T20:17:13.551Z",
+      "reviewNotes": "Initials match physical inspection inside bag tag."
+    },
+    {
+      "id": "claim-demo-1",
+      "foundItemId": "found-demo-01",
+      "foundItemTitle": "Space Gray MacBook Pro 14\" (M3)",
+      "claimantUserId": "usr-demo-student",
+      "claimantName": "David Miller",
+      "claimantEmail": "david.miller@campus.edu",
+      "reporterUserId": "usr-mod-1",
+      "status": "under_review",
+      "answers": [
+        {
+          "question": "What distinctive sticker or mark is on the laptop lid?",
+          "answer": "A holographic Rust programming language ferris crab sticker and an ACM chapter badge on bottom left corner."
+        },
+        {
+          "question": "What is the lockscreen wallpaper image?",
+          "answer": "James Webb Deep Field Carina Nebula wallpaper."
+        }
+      ],
+      "privateProofDescription": "I have the original Apple Store invoice showing serial ending in 9J2M and purchase date October 2024.",
+      "proofDocumentUrl": "",
+      "reviewNotes": "Sticker descriptions match item custody records accurately. Verifying serial number match.",
+      "reviewerId": "usr-mod-1",
+      "handoverDetails": {
+        "safeLocation": "Campus Security Station A, Main Library Lobby",
+        "scheduledTime": "Tomorrow at 2:00 PM",
+        "verificationCode": "TB-8942",
+        "reporterConfirmed": false,
+        "claimantConfirmed": true
+      },
+      "timeline": [
+        {
+          "action": "Claim Submitted",
+          "timestamp": "2026-10-23T02:07:36.137Z",
+          "by": "David Miller",
+          "note": "Claim submitted with proof details."
+        },
+        {
+          "action": "Moderator Review Started",
+          "timestamp": "2026-10-23T12:07:36.137Z",
+          "by": "Sarah Chen (Moderator)",
+          "note": "Answers match physical item inspection."
+        }
+      ],
+      "createdAt": "2026-10-23T02:07:36.137Z",
+      "updatedAt": "2026-10-23T12:07:36.137Z"
+    },
+    {
+      "id": "claim-demo-2",
+      "foundItemId": "found-demo-03",
+      "foundItemTitle": "Matte Black Sony WH-1000XM5 Headphones",
+      "claimantUserId": "usr-demo-emily",
+      "claimantName": "Emily Watson",
+      "claimantEmail": "emily.watson@campus.edu",
+      "reporterUserId": "usr-admin-1",
+      "status": "completed",
+      "answers": [
+        {
+          "question": "What Bluetooth device name is registered on the headphones?",
+          "answer": "Emily's QuietXM5"
+        }
+      ],
+      "privateProofDescription": "Serial number verified against Sony Headphones Connect app screenshot.",
+      "reviewNotes": "Owner confirmed identity and device paired in presence of staff. Successfully returned.",
+      "reviewerId": "usr-admin-1",
+      "handoverDetails": {
+        "safeLocation": "Student Union Help Desk",
+        "scheduledTime": "Yesterday 4:30 PM",
+        "verificationCode": "TB-1102",
+        "reporterConfirmed": true,
+        "claimantConfirmed": true
+      },
+      "timeline": [
+        {
+          "action": "Claim Approved",
+          "timestamp": "2026-10-21T20:07:36.137Z",
+          "by": "Marcus Vance",
+          "note": "Handover scheduled at Union desk."
+        },
+        {
+          "action": "Item Safely Returned",
+          "timestamp": "2026-10-22T20:07:36.137Z",
+          "by": "Marcus Vance",
+          "note": "Both parties confirmed safe physical handover."
+        }
+      ],
+      "createdAt": "2026-10-21T14:07:36.137Z",
+      "updatedAt": "2026-10-22T20:07:36.137Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-demo-1",
+      "userId": "usr-demo-student",
+      "title": "High-Confidence AI Match Found",
+      "message": "A found Space Gray MacBook Pro 14\" matching your reported item was deposited at Campus Library Desk.",
+      "type": "match",
+      "link": "/matches",
+      "read": false,
+      "createdAt": "2026-10-23T08:07:36.137Z"
+    },
+    {
+      "id": "notif-demo-2",
+      "userId": "usr-demo-student",
+      "title": "Claim Update: Under Review",
+      "message": "Moderator Sarah Chen has begun reviewing your verification answers for Claim TB-8942.",
+      "type": "claim_update",
+      "link": "/my-claims",
+      "read": false,
+      "createdAt": "2026-10-23T12:07:36.137Z"
+    },
+    {
+      "id": "notif-demo-3",
+      "userId": "usr-demo-emily",
+      "title": "Item Return Confirmed!",
+      "message": "Your Sony WH-1000XM5 headphones return has been recorded. Thank you for using TraceBack.",
+      "type": "claim_update",
+      "link": "/my-claims",
+      "read": true,
+      "createdAt": "2026-10-22T20:07:36.137Z"
+    }
+  ],
+  "communityStories": [
+    {
+      "id": "story-1",
+      "title": "Master Thesis Saved: Laptop Reunited Within 3 Hours",
+      "itemName": "ThinkPad X1 Carbon with Research Data",
+      "category": "Electronics",
+      "story": "Lost in the Engineering quad cafe during finals week. A student handed it in to security, and TraceBack descriptive matching linked it before the owner even panicked.",
+      "venue": "North Engineering Cafe",
+      "daysToRecover": 1,
+      "imageUrl": "/src/assets/images/item_sample_laptop_1792785746551.jpg",
+      "authorName": "Alex Rivera",
+      "createdAt": "2026-10-18T20:07:36.137Z"
+    },
+    {
+      "id": "story-2",
+      "title": "Family Heirloom Keychain Returned Safe",
+      "itemName": "Brass Monogrammed Keychain with Car Keys",
+      "category": "Keys & Badges",
+      "story": "Slipped between gym bleachers during alumni basketball weekend. Private verification clue about the engraved coordinates confirmed ownership instantly.",
+      "venue": "Campus Recreation Arena",
+      "daysToRecover": 2,
+      "imageUrl": "",
+      "authorName": "Hannah Patel",
+      "createdAt": "2026-10-11T20:07:36.137Z"
+    },
+    {
+      "id": "story-3",
+      "title": "Camera Gear Recovered at Central Train Terminal",
+      "itemName": "Charcoal Camera Backpack with Lenses",
+      "category": "Bags & Luggage",
+      "story": "Left on the commuter rail overhead rack. Found by station staff, logged with private serial verification, safely handed over at Station Master Office.",
+      "venue": "Metro Central Station",
+      "daysToRecover": 3,
+      "imageUrl": "/src/assets/images/item_sample_backpack_1792785746923.jpg",
+      "authorName": "Liam O’Connor",
+      "createdAt": "2026-10-04T20:07:36.137Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "audit-1792808951380-gduj",
+      "action": "User Login",
+      "userId": "usr-1792808926809-uchz",
+      "userName": "sonu",
+      "details": "User logged in from sonukr7435@gmail.com",
+      "timestamp": "2026-10-24T02:29:11.380Z"
+    },
+    {
+      "id": "audit-1792808926809-5fqk",
+      "action": "User Registered",
+      "userId": "usr-1792808926809-uchz",
+      "userName": "sonu",
+      "details": "Registered new user account: sonukr7435@gmail.com",
+      "timestamp": "2026-10-24T02:28:46.809Z"
+    },
+    {
+      "id": "audit-1",
+      "action": "System Seed Initialized",
+      "userId": "usr-admin-1",
+      "userName": "Marcus Vance",
+      "details": "TraceBack benchmark dataset initialized with 100 realistic community reports.",
+      "timestamp": "2026-10-23T20:07:36.137Z"
+    },
+    {
+      "id": "audit-2",
+      "action": "Claim Handover Completed",
+      "userId": "usr-admin-1",
+      "userName": "Marcus Vance",
+      "details": "Handover verification code TB-1102 confirmed for Sony WH-1000XM5 headphones.",
+      "timestamp": "2026-10-22T20:07:36.137Z"
+    }
+  ],
+  "meta": {
+    "seededAt": "2026-10-23T20:07:36.137Z",
+    "demoCount": 100,
+    "version": "1.0.0"
+  }
+}
